@@ -4,13 +4,18 @@ import TestimonialCard from "../composites/TestimonialCard";
 import Container from "../primitives/Container";
 import SectionHeading from "../primitives/SectionHeading";
 
-function TestimonialsBlock() {
+function TestimonialsBlock({
+  sectionId = "testimonials",
+  titleKey = "home.testimonialsBlock.title",
+  descriptionKey = "home.testimonialsBlock.description",
+  sectionClassName = "surface-section",
+}) {
   const { t } = useI18n();
 
   return (
-    <section className="surface-section">
+    <section id={sectionId} className={sectionClassName}>
       <Container>
-        <SectionHeading title={t("home.testimonialsBlock.title")} description={t("home.testimonialsBlock.description")} />
+        <SectionHeading title={t(titleKey)} description={t(descriptionKey)} />
         <div className="card-grid three">
           {testimonials.map((item) => (
             <TestimonialCard

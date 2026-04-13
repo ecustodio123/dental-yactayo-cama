@@ -1,25 +1,25 @@
 export const topNavLinks = [
   { key: "home", to: "/" },
-  { key: "components", to: "/components" },
-  { key: "about", to: "#" },
-  { key: "contact", to: "#" },
+  { key: "services", to: "/servicios" },
+  { key: "about", to: "/nosotros" },
+  { key: "contact", to: "/contacto" },
 ];
 
 export const mainNavDropdowns = [
   {
-    key: "skinConditions",
-    optionKeys: ["option1", "option2", "option3", "option4"],
+    key: "preventiveCare",
+    optionKeys: ["wellnessCheck", "vaccinationPlan", "deworming", "nutritionAdvice"],
+  },
+  {
+    key: "diagnostics",
+    optionKeys: ["labTests", "imaging", "dermatology", "seniorProfile"],
   },
   {
     key: "procedures",
-    optionKeys: ["option1", "option2", "option3", "option4"],
+    optionKeys: ["softTissueSurgery", "dentalCleaning", "hospitalization", "emergencyCare"],
   },
   {
-    key: "laserEnergy",
-    optionKeys: ["option1", "option2", "option3", "option4"],
-  },
-  {
-    key: "esthetics",
-    optionKeys: ["option1", "option2", "option3", "option4"],
+    key: "wellness",
+    optionKeys: ["grooming", "petShop", "behaviorGuidance", "travelCertificate"],
   },
 ];

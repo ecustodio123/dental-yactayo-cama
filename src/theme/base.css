@@ -2,11 +2,24 @@
   box-sizing: border-box;
 }
 
+:root {
+  --anchor-offset: 176px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--anchor-offset);
+}
+
 body {
   margin: 0;
   font-family: "Poppins", "Segoe UI", sans-serif;
   color: var(--color-text-primary);
   background: var(--color-bg-page);
+}
+
+section[id] {
+  scroll-margin-top: var(--anchor-offset);
 }
 
 a {
@@ -21,4 +34,16 @@ img {
 
 main {
   min-height: 60vh;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --anchor-offset: 148px;
+  }
+}
+
+@media (max-width: 720px) {
+  :root {
+    --anchor-offset: 106px;
+  }
 }

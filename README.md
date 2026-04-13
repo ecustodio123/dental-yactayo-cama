@@ -160,24 +160,57 @@ Contexto obligatorio:
 - Este repositorio es un proyecto derivado de un white-label starter.
 - Este repo actual es independiente del repo base.
 - Nunca debes asumir cambios en el repo base; trabaja solo en este repo actual.
-- El objetivo es construir una landing de tipo {{tipoDeProyecto}}.
+- Objetivo general: construir un sitio para {{tipoDeProyecto}}.
+
+Modo de arquitectura del sitio (obligatorio):
+- Site mode: {{siteMode}} 
+  - Opciones: `single-page` | `multi-page` | `hybrid`
+- Navegación principal: {{navigationMode}}
+  - Opciones: `anchors` | `routes` | `mixed`
+- Definición explícita de menú/header:
+  - {{headerMap}}
+  - Ejemplo anchors: `Inicio->/#home, Servicios->/#services, Reseñas->/#testimonials, Contacto->/#contact`
+  - Ejemplo routes: `Inicio->/, Servicios->/servicios, Nosotros->/nosotros, Contacto->/contacto`
+- Regla de scroll/offset para sticky header:
+  - {{headerOffsetStrategy}}
+  - Opciones: `css-only` | `dynamic-js` | `both`
+- Rutas permitidas adicionales (si aplica):
+  - {{rutasAdicionales}}
+  - Ejemplo: `/privacy, /terms, /gracias`
 
 Objetivo del proyecto:
 - Marca: {{nombreMarca}}
 - Industria: {{tipoDeProyecto}}
 - Público objetivo: {{publicoObjetivo}}
-- Idiomas: {{idiomas}} (ej: en, es)
+- Idiomas: {{idiomas}} (ej: `en, es`)
 - CTA principal: {{ctaPrincipal}}
+- URL/acción del CTA principal: {{ctaPrincipalDestino}}
+- CTA secundario (opcional): {{ctaSecundario}}
 - Estilo visual deseado: {{estiloVisual}}
 - Secciones requeridas: {{seccionesRequeridas}}
+
+Contenido y datos:
+- Fuente de contenido: {{contentSource}}
+  - Opciones: `placeholder` | `brand-provided` | `mixed`
+- Datos de negocio confirmados:
+  - Teléfono: {{telefono}}
+  - WhatsApp: {{whatsapp}}
+  - Dirección: {{direccion}}
+  - Horario: {{horario}}
+- Integraciones:
+  - Formulario: {{formMode}}
+  - Opciones: `emailjs` | `webhook` | `disabled`
 
 Reglas de trabajo:
 1. Mantén enfoque white-label reusable: componentes configurables y contenido desacoplado.
 2. Antes de editar, revisa estructura y propone cambios concretos por archivo.
 3. Implementa directamente los cambios, luego valida con lint/build.
-4. Si algo requiere credenciales (ej: EmailJS), usa .env.local y conserva .env.example como plantilla.
+4. Si algo requiere credenciales (ej: EmailJS), usa `.env.local` y conserva `.env.example` como plantilla.
 5. Prioriza responsive (mobile-first) y accesibilidad básica.
 6. Si detectas mejoras reutilizables para futuros proyectos, proponlas como bloques opcionales.
+7. Si `siteMode=single-page`, evita crear rutas nuevas salvo `{{rutasAdicionales}}`.
+8. Si `siteMode=multi-page`, define y respeta estructura de rutas/vistas.
+9. Si `navigationMode` usa anchors, asegura offset correcto con header sticky.
 
 Formato de respuesta esperado:
 - Resumen corto de lo que harás.

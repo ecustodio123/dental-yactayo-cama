@@ -5,7 +5,7 @@ import Button from "../primitives/Button";
 import Container from "../primitives/Container";
 import SectionHeading from "../primitives/SectionHeading";
 
-function ContactBlock() {
+function ContactBlock({ showHeading = true, sectionClassName = "" }) {
   const { t } = useI18n();
   const formRef = useRef(null);
   const [status, setStatus] = useState("idle");
@@ -36,9 +36,9 @@ function ContactBlock() {
   };
 
   return (
-    <section className="surface-section">
+    <section id="contact" className={`surface-section surface-section--soft ${sectionClassName}`.trim()}>
       <Container>
-        <SectionHeading title={t("contactBlock.title")} description={t("contactBlock.description")} />
+        {showHeading ? <SectionHeading title={t("contactBlock.title")} description={t("contactBlock.description")} /> : null}
         <div className="contact-block">
           <article className="contact-panel">
             <form ref={formRef} onSubmit={handleSubmit}>
@@ -84,9 +84,16 @@ function ContactBlock() {
           </article>
 
           <article className="contact-panel">
+            <h3 className="contact-panel__title">{t("contactBlock.panelTitle")}</h3>
+            <p className="contact-panel__text">{t("contactBlock.panelDescription")}</p>
+            <p className="contact-panel__meta">{t("business.address")}</p>
+            <p className="contact-panel__meta">{t("business.hours")}</p>
+            <a className="btn btn-primary contact-panel__cta" href={t("business.whatsappHref")} target="_blank" rel="noreferrer">
+              {t("contactBlock.whatsappCta")}
+            </a>
             <iframe
               title={t("contactBlock.mapTitle")}
-              src="https://maps.google.com/maps?q=New%20Jersey&t=&z=11&ie=UTF8&iwloc=&output=embed"
+              src="https://maps.google.com/maps?q=Av.%20Salaverry%20277%20Chilca&t=&z=16&ie=UTF8&iwloc=&output=embed"
               loading="lazy"
             />
           </article>

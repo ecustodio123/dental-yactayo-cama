@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Kit Inicial de Landing"
+    "title": "Enro's Vet | Clínica Veterinaria en Chilca"
   },
   "language": {
     "switchLabel": "Idioma",
@@ -8,34 +8,62 @@
     "es": "ES"
   },
   "logo": {
-    "subtitle": "Kit Inicial de Landing"
+    "subtitle": "Clínica Veterinaria"
   },
   "header": {
     "homeAria": "Ir al inicio",
-    "navAria": "Navegación principal"
+    "navAria": "Navegación principal",
+    "cta": "Reservar por WhatsApp"
   },
   "navigation": {
     "home": "Inicio",
-    "components": "Componentes",
-    "about": "Acerca",
-    "contact": "Contacto"
+    "services": "Servicios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "components": "Componentes"
+  },
+  "social": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "tiktok": "TikTok"
   },
   "business": {
-    "phoneHref": "9737919770",
-    "phoneDisplay": "973-791-9770"
+    "phoneHref": "519737919770",
+    "phoneDisplay": "+51 973 791 977",
+    "whatsappHref": "https://wa.me/519737919770?text=Hola%20Enro%27s%20Vet%2C%20quiero%20agendar%20una%20cita.",
+    "address": "Av. Salaverry 277, Chilca",
+    "hours": "Horario: Lun-Sáb 9:00 AM - 8:00 PM",
+    "email": "contacto@enrosvet.pe",
+    "social": {
+      "facebook": "https://www.facebook.com/veterinariaenrosvet",
+      "instagram": "https://www.instagram.com/enrosvet.chilca/?hl=es",
+      "tiktok": "https://www.tiktok.com/@enrosvet"
+    }
   },
   "mainNav": {
     "categories": {
-      "skinConditions": "Condiciones de la piel",
+      "preventiveCare": "Prevención",
+      "diagnostics": "Diagnóstico",
       "procedures": "Procedimientos",
-      "laserEnergy": "Láser y Energía",
-      "esthetics": "Estética"
+      "wellness": "Bienestar"
     },
     "options": {
-      "option1": "Opción 1",
-      "option2": "Opción 2",
-      "option3": "Opción 3",
-      "option4": "Opción 4"
+      "wellnessCheck": "Consulta preventiva",
+      "vaccinationPlan": "Plan de vacunación",
+      "deworming": "Desparasitación",
+      "nutritionAdvice": "Consejería nutricional",
+      "labTests": "Análisis de laboratorio",
+      "imaging": "Rayos X y ecografía",
+      "dermatology": "Dermatología",
+      "seniorProfile": "Chequeo senior",
+      "softTissueSurgery": "Cirugía de tejidos blandos",
+      "dentalCleaning": "Limpieza dental",
+      "hospitalization": "Hospitalización",
+      "emergencyCare": "Atención de urgencia",
+      "grooming": "Baño y grooming",
+      "petShop": "Pet shop",
+      "behaviorGuidance": "Orientación conductual",
+      "travelCertificate": "Certificado para viaje"
     }
   },
   "carousel": {
@@ -46,103 +74,281 @@
   },
   "home": {
     "hero": {
-      "title": "Construye landing pages premium más rápido con un starter reutilizable",
-      "description": "Esta app white-label incluye enrutamiento, tokens de diseño, bloques responsive y componentes reutilizables listos para cualquier nicho de negocio.",
-      "cta": "Iniciar Nuevo Landing",
-      "imageAlt": "Hero del starter"
+      "kicker": "Clínica Veterinaria en Chilca",
+      "title": "Cuidado veterinario confiable para perros, gatos y mascotas del hogar",
+      "description": "En Enro's Vet acompañamos la salud de tu mascota con medicina preventiva, diagnóstico clínico y atención cálida para cada etapa de su vida.",
+      "cta": "Agendar cita por WhatsApp",
+      "ctaSecondary": "Ver contacto",
+      "highlightsAria": "Beneficios de Enro's Vet",
+      "highlight1": "Atención personalizada con seguimiento clínico",
+      "highlight2": "Más de 15 años cuidando mascotas en Chilca",
+      "highlight3": "Servicios médicos, grooming y pet shop en un solo lugar",
+      "imageAlt": "Veterinaria revisando a un perro en consulta"
     },
     "servicesBlock": {
-      "title": "Carrusel Reutilizable de Tarjetas de Servicio",
-      "description": "Carrusel con navegación por clic y arrastre, con autoplay en mobile, reutilizable para páginas landing."
+      "title": "Especialidades y Servicios",
+      "description": "Conoce de forma clara todo lo que podemos hacer por la salud y bienestar de tu mascota.",
+      "intro": "Brindamos atención integral especializada con protocolos médicos y diagnóstico oportuno para cada etapa de vida de tu mascota.",
+      "supportTitle": "Servicios complementarios",
+      "cta": "Hablar con el equipo veterinario"
+    },
+    "trustBlock": {
+      "title": "Por Qué Elegirnos",
+      "description": "Resultados medibles y experiencia local para cuidar mejor a tu mascota."
     },
     "testimonialsBlock": {
-      "title": "Sección de Testimonios",
-      "description": "Grid simple y reutilizable para prueba social."
+      "title": "Lo Que Dicen Nuestros Clientes",
+      "description": "Familias de Chilca que confían en Enro's Vet para el cuidado de sus mascotas."
+    },
+    "faqBlock": {
+      "title": "Preguntas Frecuentes",
+      "description": "Respuestas rápidas para ayudarte antes de tu próxima visita."
     }
   },
   "contactBlock": {
-    "title": "Bloque de Contacto",
-    "description": "Sección de contacto reutilizable con formulario y mapa.",
+    "title": "Agenda Tu Cita",
+    "description": "Completa el formulario y te contactamos para confirmar horario y servicio.",
+    "panelTitle": "Atención rápida por WhatsApp",
+    "panelDescription": "Si necesitas una respuesta inmediata, escríbenos y te orientamos según el caso de tu mascota.",
+    "whatsappCta": "Escribir por WhatsApp",
     "fields": {
-      "fullName": "Nombre Completo*",
+      "fullName": "Nombre completo*",
       "phone": "Teléfono*",
-      "email": "Correo Electrónico*",
-      "interestedIn": "Interesado en",
-      "message": "Mensaje"
+      "email": "Correo electrónico*",
+      "interestedIn": "Servicio de interés",
+      "message": "Cuéntanos qué necesita tu mascota"
     },
     "options": {
-      "option1": "Opción 1",
-      "option2": "Opción 2",
-      "option3": "Opción 3"
+      "option1": "Consulta médica",
+      "option2": "Vacunación",
+      "option3": "Grooming"
     },
     "sending": "Enviando...",
     "feedback": {
       "success": "Mensaje enviado correctamente. Te contactaremos pronto.",
-      "error": "No se pudo enviar el mensaje. Inténtalo de nuevo en unos minutos.",
-      "configError": "Faltan variables de entorno de EmailJS."
+      "error": "No se pudo enviar el mensaje. Inténtalo nuevamente en unos minutos.",
+      "configError": "Faltan variables de entorno de EmailJS. Configura .env.local usando .env.example."
     },
-    "submit": "Enviar",
-    "mapTitle": "Mapa demo"
+    "submit": "Solicitar cita",
+    "mapTitle": "Ubicación de Enro's Vet en Chilca"
   },
   "pages": {
+    "about": {
+      "title": "Nosotros",
+      "description": "We are a veterinary clinic in Chilca committed to the well-being of every pet, focused on preventive care, timely diagnosis, and close support. We believe in clear and transparent care, where every family understands their pet’s health and feels confident in every decision.",
+      "storyTitle": "Acerca de Enro's Vet",
+      "storyText": "En Enro’s Vet creemos que cada mascota es parte de la familia, y por eso merece una atención médica basada en confianza, respeto y cercanía. Nacimos con el propósito de brindar un servicio veterinario claro y humano, donde cada tutor pueda entender el estado de salud de su mascota y sentirse acompañado en cada decisión.\n Nuestro equipo combina experiencia clínica con un enfoque preventivo, priorizando la detección temprana de enfermedades y el bienestar integral de cada paciente. Sabemos que una buena comunicación es clave, por eso explicamos cada diagnóstico y tratamiento de forma sencilla, para que siempre tengas la tranquilidad de saber qué está pasando.\nMás allá de la consulta, buscamos construir relaciones a largo plazo con cada familia que confía en nosotros. Nos enfocamos en crear un ambiente seguro y cercano, donde tanto las mascotas como sus dueños se sientan cómodos y bien atendidos.\nEn Enro’s Vet no solo cuidamos la salud de tu mascota, sino también la confianza que depositas en nosotros.",
+      "pillarsAria": "Pilares de atención de Enro's Vet",
+      "servicesCta": "Ver todos los servicios",
+      "staffTitle": "Nuestro Staff Veterinario",
+      "staffDescription": "Equipo multidisciplinario para consultas generales, diagnóstico clínico y seguimiento continuo.",
+      "reviewsTitle": "Confianza de Nuestros Clientes",
+      "reviewsDescription": "Estas son algunas experiencias de familias que atienden a sus mascotas con nosotros."
+    },
+    "contact": {
+      "title": "Contacto y Reservas",
+      "description": "Puedes escribirnos por WhatsApp, llamarnos o dejarnos tu mensaje para coordinar una cita.",
+      "infoAria": "Canales de contacto de Enro's Vet",
+      "socialTitle": "Síguenos en redes",
+      "faqTitle": "Preguntas frecuentes antes de tu cita",
+      "faqDescription": "Respuestas rápidas para que agendes con más claridad.",
+      "referenceNote": "Diseño inspirado en patrones de contacto de veterinarias peruanas: CTA inmediato por WhatsApp, horario visible y ubicación con mapa.",
+      "cards": {
+        "whatsapp": {
+          "title": "Atención inmediata",
+          "text": "Prioridad para reservas y consultas rápidas durante horario de atención.",
+          "cta": "Reservar por WhatsApp"
+        },
+        "phone": {
+          "title": "Llámanos",
+          "cta": "Llamar ahora"
+        },
+        "schedule": {
+          "title": "Horario y dirección"
+        }
+      }
+    },
     "components": {
       "title": "Vitrina de Componentes",
-      "description": "Primitivos y compuestos reutilizables.",
+      "description": "Bloques reutilizables del sistema white-label.",
       "buttonPrimary": "Botón Primario",
       "buttonSecondary": "Botón Secundario",
       "buttonOutline": "Botón Outline"
     },
     "notFound": {
-      "title": "404 - Página No Encontrada",
-      "description": "Esta ruta no está disponible en el starter kit.",
-      "backHome": "Volver al Inicio"
+      "title": "404 - Página no encontrada",
+      "description": "La ruta solicitada no existe en este sitio.",
+      "backHome": "Volver al inicio"
     }
   },
   "footer": {
-    "title": "Kit Inicial de Landing",
-    "description": "Base reutilizable con React + Tailwind + Router para entregar proyectos de clientes más rápido.",
+    "title": "Enro's Vet",
+    "description": "Veterinaria de confianza en Chilca con atención integral para mascotas.",
     "highlights": {
-      "cloneBuild": "Listo para flujo clonar-y-construir",
-      "tokenBased": "Tematización basada en tokens",
-      "responsive": "Responsive por defecto"
+      "cloneBuild": "Atención preventiva y clínica",
+      "tokenBased": "Equipo cercano y profesional",
+      "responsive": "Acompañamiento antes y después de cada consulta"
     },
-    "rights": "© 2026 Kit Inicial de Landing. Construido para flujos freelance reutilizables."
+    "rights": "© 2026 Enro's Vet. Todos los derechos reservados."
   },
   "catalog": {
+    "serviceShowcase": {
+      "generalConsultation": {
+        "title": "Consulta General",
+        "description": "Chequeo clínico para detectar riesgos tempranos y definir un plan de salud para tu mascota.",
+        "point1": "Evaluación de peso, condición corporal y signos vitales",
+        "point2": "Revisión de piel, oído, ojos y cavidad oral",
+        "point3": "Recomendaciones de prevención y cuidados en casa"
+      },
+      "cardiologyConsultation": {
+        "title": "Consulta Cardiológica",
+        "description": "Evaluación especializada para mascotas con soplos, fatiga o sospecha de enfermedad cardíaca.",
+        "point1": "Electrocardiograma para detectar arritmias",
+        "point2": "Ecocardiograma para medir función y tamaño cardíaco",
+        "point3": "Ecocardiografía doppler para evaluar flujos",
+        "point4": "Control y monitoreo de presión arterial"
+      },
+      "traumatologyConsultation": {
+        "title": "Consulta Traumatológica",
+        "description": "Atención de lesiones músculo-esqueléticas, cojeras, fracturas y dolor articular.",
+        "point1": "Evaluación locomotora y neurológica básica",
+        "point2": "Plan terapéutico según el tipo de lesión",
+        "point3": "Seguimiento de recuperación y movilidad"
+      },
+      "dermatologyConsultation": {
+        "title": "Consulta Dermatológica",
+        "description": "Diagnóstico y tratamiento de alergias, picazón, caída de pelo e infecciones de piel.",
+        "point1": "Raspado, citología y pruebas complementarias",
+        "point2": "Control de dermatitis alérgica y otitis",
+        "point3": "Plan de tratamiento y mantenimiento de piel"
+      },
+      "ophthalmologyConsultation": {
+        "title": "Consulta Oftalmológica",
+        "description": "Evaluación ocular para detectar y tratar alteraciones visuales y enfermedades del ojo.",
+        "point1": "Revisión de córnea, conjuntiva y cristalino",
+        "point2": "Detección temprana de úlceras y cataratas",
+        "point3": "Manejo terapéutico y controles periódicos"
+      },
+      "abdominalUltrasound": {
+        "title": "Ecografía Abdominal",
+        "description": "Imagen diagnóstica no invasiva para evaluar órganos internos y apoyar decisiones clínicas.",
+        "point1": "Valoración de hígado, riñones y páncreas",
+        "point2": "Revisión de vejiga, útero y ganglios",
+        "point3": "Apoyo para diagnóstico y seguimiento"
+      }
+    },
+    "serviceSupport": {
+      "microchipId": "Identificación con microchip",
+      "pharmacy": "Farmacia veterinaria",
+      "petShop": "Pet shop con productos recomendados",
+      "homeGuidance": "Orientación de cuidados en casa",
+      "postoperativeFollowup": "Seguimiento postoperatorio",
+      "chronicDiseaseControl": "Control de pacientes crónicos"
+    },
     "services": {
-      "landingArchitecture": {
-        "title": "Arquitectura de Landing",
-        "description": "Secciones preconstruidas para lanzar sitios de una o múltiples páginas con acabado profesional."
+      "preventiveConsultation": {
+        "title": "Consulta Preventiva",
+        "description": "Evaluación general para detectar riesgos tempranos y mantener a tu mascota saludable."
       },
-      "designTokens": {
-        "title": "Tokens de Diseño",
-        "description": "Colores y espaciado centralizados para rebranding en minutos."
+      "vaccinationAndDeworming": {
+        "title": "Vacunas y Desparasitación",
+        "description": "Protocolos por edad y estilo de vida para una protección efectiva todo el año."
       },
-      "reusableComponents": {
-        "title": "Componentes Reutilizables",
-        "description": "Botones, tarjetas, headers y bloques de contenido construidos para velocidad."
+      "clinicalLab": {
+        "title": "Laboratorio Clínico",
+        "description": "Pruebas de apoyo diagnóstico para tomar decisiones médicas rápidas y precisas."
       },
-      "responsiveFirst": {
-        "title": "Responsive Primero",
-        "description": "Layouts ajustados para móvil, tablet y desktop desde el día uno."
+      "surgeryAndHospitalization": {
+        "title": "Cirugía y Hospitalización",
+        "description": "Procedimientos seguros con monitoreo y acompañamiento durante recuperación."
       },
-      "showcasePage": {
-        "title": "Página de Showcase",
-        "description": "Una vista /components para auditar UI reutilizable antes de la entrega."
+      "groomingAndPetshop": {
+        "title": "Grooming y Pet Shop",
+        "description": "Higiene, estética y productos seleccionados para el bienestar diario de tu mascota."
+      }
+    },
+    "trustStats": {
+      "experienceYears": {
+        "value": "+15",
+        "label": "Años de experiencia"
+      },
+      "petsAttended": {
+        "value": "+5,000",
+        "label": "Mascotas atendidas"
+      },
+      "customerRating": {
+        "value": "4.9/5",
+        "label": "Calificación de clientes"
+      },
+      "extendedHours": {
+        "value": "6 días",
+        "label": "Atención semanal"
+      }
+    },
+    "aboutPillars": {
+      "humanCare": {
+        "title": "Atención Humana",
+        "description": "Escuchamos a cada tutor, explicamos diagnósticos en lenguaje claro y definimos un plan realista para el bienestar de su mascota."
+      },
+      "medicalCriteria": {
+        "title": "Criterio Médico",
+        "description": "Aplicamos protocolos clínicos y medicina basada en evidencia para tomar decisiones oportunas en prevención, diagnóstico y tratamiento."
+      },
+      "continuousFollowup": {
+        "title": "Seguimiento Continuo",
+        "description": "No termina en la consulta: damos pautas en casa, controles programados y monitoreo de evolución según cada caso."
+      }
+    },
+    "staff": {
+      "drEnrique": {
+        "name": "Dr. Carlos Enrique",
+        "role": "Director Médico · Medicina Interna",
+        "bio": "Lidera la evaluación clínica integral y coordina planes terapéuticos para pacientes caninos y felinos.",
+        "imageAlt": "Veterinario revisando a una mascota en consulta"
+      },
+      "draLucia": {
+        "name": "Dra. Lucía Mendoza",
+        "role": "Médica Veterinaria · Prevención y Vacunación",
+        "bio": "Especialista en medicina preventiva, calendarios de vacunación y orientación nutricional en etapas tempranas y adultas.",
+        "imageAlt": "Médica veterinaria sonriendo en clínica"
+      },
+      "drMarco": {
+        "name": "Dr. Marco Salazar",
+        "role": "Médico Veterinario · Cirugía y Urgencias",
+        "bio": "Atiende procedimientos quirúrgicos, estabilización inicial y seguimiento postoperatorio con foco en recuperación segura.",
+        "imageAlt": "Veterinario en área clínica"
       }
     },
     "testimonials": {
-      "projectOwner": {
-        "name": "Dueño del Proyecto",
-        "text": "El starter kit redujo tiempos de setup y nos dio una estructura limpia para futuras páginas de clientes."
+      "petParentAna": {
+        "name": "Ana M.",
+        "text": "Siempre nos explican el tratamiento con claridad y tratan a Luna con mucha paciencia."
       },
-      "frontendDeveloper": {
-        "name": "Desarrollador Frontend",
-        "text": "Los bloques reutilizables y tokens hicieron que los cambios de branding fueran muy rápidos."
+      "petParentLuis": {
+        "name": "Luis R.",
+        "text": "La atención fue rápida y profesional. Nos ayudaron a resolver una urgencia el mismo día."
       },
-      "freelanceTeam": {
-        "name": "Equipo Freelance",
-        "text": "Ahora clonamos un solo repositorio y entregamos landings personalizados en una fracción del tiempo."
+      "petParentSofia": {
+        "name": "Sofía P.",
+        "text": "Me gusta que hacen seguimiento luego de cada consulta. Se nota el compromiso con cada mascota."
+      }
+    },
+    "faq": {
+      "firstVisit": {
+        "question": "¿Qué debo llevar a la primera consulta?",
+        "answer": "Trae carnet de vacunación, antecedentes médicos si los tienes y una breve descripción de síntomas o cambios de conducta."
+      },
+      "vaccines": {
+        "question": "¿Cada cuánto debo vacunar a mi mascota?",
+        "answer": "Depende de la edad, especie y estado de salud. Evaluamos cada caso y definimos un calendario personalizado."
+      },
+      "emergency": {
+        "question": "¿Atienden casos de urgencia?",
+        "answer": "Sí, brindamos primera atención y estabilización. Escríbenos por WhatsApp para orientarte de inmediato."
+      },
+      "paymentMethods": {
+        "question": "¿Qué métodos de pago aceptan?",
+        "answer": "Aceptamos efectivo, transferencias y medios digitales locales."
       }
     }
   }

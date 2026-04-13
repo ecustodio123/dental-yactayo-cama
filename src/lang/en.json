@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Landing Starter Kit"
+    "title": "Enro's Vet | Veterinary Clinic in Chilca"
   },
   "language": {
     "switchLabel": "Language",
@@ -8,34 +8,62 @@
     "es": "ES"
   },
   "logo": {
-    "subtitle": "Starter Landing Kit"
+    "subtitle": "Veterinary Clinic"
   },
   "header": {
     "homeAria": "Go to homepage",
-    "navAria": "Primary navigation"
+    "navAria": "Primary navigation",
+    "cta": "Book on WhatsApp"
   },
   "navigation": {
     "home": "Home",
-    "components": "Components",
+    "services": "Services",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "components": "Components"
+  },
+  "social": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "tiktok": "TikTok"
   },
   "business": {
-    "phoneHref": "9737919770",
-    "phoneDisplay": "973-791-9770"
+    "phoneHref": "519737919770",
+    "phoneDisplay": "+51 973 791 977",
+    "whatsappHref": "https://wa.me/519737919770?text=Hi%20Enro%27s%20Vet%2C%20I%20would%20like%20to%20book%20an%20appointment.",
+    "address": "Av. Salaverry 277, Chilca",
+    "hours": "Hours: Mon-Sat 9:00 AM - 8:00 PM",
+    "email": "contacto@enrosvet.pe",
+    "social": {
+      "facebook": "https://www.facebook.com/veterinariaenrosvet",
+      "instagram": "https://www.instagram.com/enrosvet.chilca/?hl=es",
+      "tiktok": "https://www.tiktok.com/@enrosvet"
+    }
   },
   "mainNav": {
     "categories": {
-      "skinConditions": "Skin Conditions",
+      "preventiveCare": "Preventive Care",
+      "diagnostics": "Diagnostics",
       "procedures": "Procedures",
-      "laserEnergy": "Laser & Energy",
-      "esthetics": "Esthetics"
+      "wellness": "Wellness"
     },
     "options": {
-      "option1": "Option 1",
-      "option2": "Option 2",
-      "option3": "Option 3",
-      "option4": "Option 4"
+      "wellnessCheck": "Wellness check",
+      "vaccinationPlan": "Vaccination plan",
+      "deworming": "Deworming",
+      "nutritionAdvice": "Nutrition advice",
+      "labTests": "Lab tests",
+      "imaging": "X-ray and ultrasound",
+      "dermatology": "Dermatology",
+      "seniorProfile": "Senior profile",
+      "softTissueSurgery": "Soft tissue surgery",
+      "dentalCleaning": "Dental cleaning",
+      "hospitalization": "Hospitalization",
+      "emergencyCare": "Emergency care",
+      "grooming": "Grooming",
+      "petShop": "Pet shop",
+      "behaviorGuidance": "Behavior guidance",
+      "travelCertificate": "Travel certificate"
     }
   },
   "carousel": {
@@ -46,103 +74,281 @@
   },
   "home": {
     "hero": {
-      "title": "Build premium landing pages faster with a reusable starter",
-      "description": "This white-label app includes routing, design tokens, responsive blocks, and reusable components ready to adapt for any business niche.",
-      "cta": "Start New Landing",
-      "imageAlt": "Starter hero"
+      "kicker": "Veterinary Clinic in Chilca",
+      "title": "Trusted veterinary care for dogs, cats, and family pets",
+      "description": "At Enro's Vet we support your pet's health with preventive medicine, clinical diagnostics, and compassionate care at every life stage.",
+      "cta": "Book appointment on WhatsApp",
+      "ctaSecondary": "View contact",
+      "highlightsAria": "Enro's Vet highlights",
+      "highlight1": "Personalized care with clinical follow-up",
+      "highlight2": "15+ years caring for pets in Chilca",
+      "highlight3": "Medical care, grooming, and pet shop in one place",
+      "imageAlt": "Veterinarian checking a dog during consultation"
     },
     "servicesBlock": {
-      "title": "Reusable Service Cards Carousel",
-      "description": "Click-and-drag loop carousel with mobile autoplay that you can reuse in landing pages."
+      "title": "Specialties and Services",
+      "description": "Explore all our veterinary services in a clear format so you can choose the right care faster.",
+      "intro": "We provide comprehensive specialized care with medical protocols and timely diagnostics for every life stage.",
+      "supportTitle": "Complementary services",
+      "cta": "Talk to our veterinary team"
+    },
+    "trustBlock": {
+      "title": "Why Pet Owners Choose Us",
+      "description": "Local experience and measurable outcomes to keep your pet healthier."
     },
     "testimonialsBlock": {
-      "title": "Testimonials Section",
-      "description": "Simple reusable card grid for social proof."
+      "title": "What Our Clients Say",
+      "description": "Pet families in Chilca who trust Enro's Vet for ongoing care."
+    },
+    "faqBlock": {
+      "title": "Frequently Asked Questions",
+      "description": "Quick answers before your next visit."
     }
   },
   "contactBlock": {
-    "title": "Contact Block",
-    "description": "Reusable contact section with form + map.",
+    "title": "Book Your Appointment",
+    "description": "Fill out the form and we will contact you to confirm date, time, and service.",
+    "panelTitle": "Fast WhatsApp support",
+    "panelDescription": "If you need an immediate response, message us and we will guide you based on your pet's case.",
+    "whatsappCta": "Chat on WhatsApp",
     "fields": {
-      "fullName": "Full Name*",
+      "fullName": "Full name*",
       "phone": "Phone*",
       "email": "Email*",
-      "interestedIn": "Interested in",
-      "message": "Message"
+      "interestedIn": "Service of interest",
+      "message": "Tell us what your pet needs"
     },
     "options": {
-      "option1": "Option 1",
-      "option2": "Option 2",
-      "option3": "Option 3"
+      "option1": "Medical consultation",
+      "option2": "Vaccination",
+      "option3": "Grooming"
     },
     "sending": "Sending...",
     "feedback": {
       "success": "Message sent successfully. We will contact you soon.",
-      "error": "We could not send your message. Please try again in a moment.",
-      "configError": "EmailJS environment variables are missing."
+      "error": "We could not send your message. Please try again in a few minutes.",
+      "configError": "EmailJS environment variables are missing. Configure .env.local using .env.example."
     },
-    "submit": "Submit",
-    "mapTitle": "Demo map"
+    "submit": "Request appointment",
+    "mapTitle": "Enro's Vet location in Chilca"
   },
   "pages": {
+    "about": {
+      "title": "About Us",
+      "description": "We are a veterinary clinic in Chilca focused on preventive medicine, timely diagnostics, and close support for every pet family.",
+      "storyTitle": "About Enro's Vet",
+      "storyText": "At Enro’s Vet, we believe that every pet is part of the family, and therefore deserves medical care based on trust, respect, and closeness. We were founded with the purpose of providing clear and compassionate veterinary care, where every owner can understand their pet’s health condition and feel supported in every decision.\nOur team combines clinical experience with a preventive approach, prioritizing early detection of diseases and the overall well-being of each patient. We know that good communication is key, which is why we explain every diagnosis and treatment in a simple way, so you can always feel confident and informed.\nBeyond each consultation, we aim to build long-term relationships with every family that trusts us. We focus on creating a safe and welcoming environment where both pets and their owners feel comfortable and well cared for.\nAt Enro’s Vet, we don’t just care for your pet’s health, we also care for the trust you place in us.",
+      "pillarsAria": "Enro's Vet care pillars",
+      "servicesCta": "View all services",
+      "staffTitle": "Our Veterinary Staff",
+      "staffDescription": "A multidisciplinary team for general consultations, clinical diagnostics, and ongoing follow-up care.",
+      "reviewsTitle": "Trusted by Pet Families",
+      "reviewsDescription": "A few experiences shared by clients who trust us with their pets."
+    },
+    "contact": {
+      "title": "Contact and Bookings",
+      "description": "You can message us on WhatsApp, call us, or leave your details to schedule an appointment.",
+      "infoAria": "Enro's Vet contact channels",
+      "socialTitle": "Follow us on social media",
+      "faqTitle": "Frequently asked questions before booking",
+      "faqDescription": "Quick answers so you can schedule with more clarity.",
+      "referenceNote": "Layout inspired by common contact patterns from veterinary websites in Peru: immediate WhatsApp CTA, visible schedule, and map-based location.",
+      "cards": {
+        "whatsapp": {
+          "title": "Immediate assistance",
+          "text": "Priority channel for bookings and quick questions during business hours.",
+          "cta": "Book on WhatsApp"
+        },
+        "phone": {
+          "title": "Call us",
+          "cta": "Call now"
+        },
+        "schedule": {
+          "title": "Schedule and location"
+        }
+      }
+    },
     "components": {
       "title": "Components Showcase",
-      "description": "Reusable primitives and composites.",
+      "description": "Reusable blocks from the white-label system.",
       "buttonPrimary": "Primary Button",
       "buttonSecondary": "Secondary Button",
       "buttonOutline": "Outline Button"
     },
     "notFound": {
       "title": "404 - Page Not Found",
-      "description": "This route is not available in the starter kit.",
-      "backHome": "Back Home"
+      "description": "The requested route does not exist on this site.",
+      "backHome": "Back to home"
     }
   },
   "footer": {
-    "title": "Landing Starter Kit",
-    "description": "Reusable React + Tailwind + Router foundation for fast client delivery.",
+    "title": "Enro's Vet",
+    "description": "Trusted veterinary clinic in Chilca with complete care for family pets.",
     "highlights": {
-      "cloneBuild": "Ready for clone-and-build workflow",
-      "tokenBased": "Token-based theming",
-      "responsive": "Responsive defaults"
+      "cloneBuild": "Preventive and clinical care",
+      "tokenBased": "Friendly and professional team",
+      "responsive": "Support before and after every appointment"
     },
-    "rights": "© 2026 Landing Starter Kit. Built for reusable freelance workflows."
+    "rights": "© 2026 Enro's Vet. All rights reserved."
   },
   "catalog": {
+    "serviceShowcase": {
+      "generalConsultation": {
+        "title": "General Consultation",
+        "description": "Clinical check-up to detect early risks and define a health plan for your pet.",
+        "point1": "Weight, body condition, and vital signs review",
+        "point2": "Skin, ears, eyes, and oral cavity assessment",
+        "point3": "Preventive recommendations and home-care guidance"
+      },
+      "cardiologyConsultation": {
+        "title": "Cardiology Consultation",
+        "description": "Specialized assessment for pets with murmurs, fatigue, or suspected heart disease.",
+        "point1": "Electrocardiogram for arrhythmia detection",
+        "point2": "Echocardiogram for structure and function analysis",
+        "point3": "Doppler echocardiography for blood-flow evaluation",
+        "point4": "Blood pressure monitoring and follow-up"
+      },
+      "traumatologyConsultation": {
+        "title": "Traumatology Consultation",
+        "description": "Care for musculoskeletal injuries, lameness, fractures, and joint pain.",
+        "point1": "Locomotor and basic neurological evaluation",
+        "point2": "Treatment plan based on the injury profile",
+        "point3": "Recovery and mobility follow-up"
+      },
+      "dermatologyConsultation": {
+        "title": "Dermatology Consultation",
+        "description": "Diagnosis and treatment of allergies, itching, hair loss, and skin infections.",
+        "point1": "Scraping, cytology, and complementary tests",
+        "point2": "Allergic dermatitis and otitis management",
+        "point3": "Treatment and skin-maintenance planning"
+      },
+      "ophthalmologyConsultation": {
+        "title": "Ophthalmology Consultation",
+        "description": "Ocular evaluation to diagnose and treat visual and eye-related conditions.",
+        "point1": "Cornea, conjunctiva, and lens examination",
+        "point2": "Early detection of ulcers and cataracts",
+        "point3": "Therapeutic management and regular checks"
+      },
+      "abdominalUltrasound": {
+        "title": "Abdominal Ultrasound",
+        "description": "Non-invasive diagnostic imaging to evaluate internal organs and support clinical decisions.",
+        "point1": "Liver, kidney, and pancreas evaluation",
+        "point2": "Bladder, uterus, and lymph node review",
+        "point3": "Diagnostic support and treatment follow-up"
+      }
+    },
+    "serviceSupport": {
+      "microchipId": "Microchip identification",
+      "pharmacy": "In-house veterinary pharmacy",
+      "petShop": "Pet shop with recommended products",
+      "homeGuidance": "At-home care guidance",
+      "postoperativeFollowup": "Post-operative follow-up",
+      "chronicDiseaseControl": "Chronic patient monitoring"
+    },
     "services": {
-      "landingArchitecture": {
-        "title": "Landing Architecture",
-        "description": "Prebuilt sections to launch polished one-page and multipage websites."
+      "preventiveConsultation": {
+        "title": "Preventive Consultation",
+        "description": "General check-up to identify early risks and keep your pet healthy."
       },
-      "designTokens": {
-        "title": "Design Tokens",
-        "description": "Centralized colors and spacing to rebrand projects in minutes."
+      "vaccinationAndDeworming": {
+        "title": "Vaccination and Deworming",
+        "description": "Age-based and lifestyle-based protocols for year-round protection."
       },
-      "reusableComponents": {
-        "title": "Reusable Components",
-        "description": "Buttons, cards, headers, and content blocks built for speed."
+      "clinicalLab": {
+        "title": "Clinical Laboratory",
+        "description": "Diagnostic support tests for faster and more accurate medical decisions."
       },
-      "responsiveFirst": {
-        "title": "Responsive First",
-        "description": "Layouts tuned for mobile, tablet, and desktop from day one."
+      "surgeryAndHospitalization": {
+        "title": "Surgery and Hospitalization",
+        "description": "Safe procedures with monitoring and guided recovery."
       },
-      "showcasePage": {
-        "title": "Showcase Page",
-        "description": "A /components view to audit reusable UI before project delivery."
+      "groomingAndPetshop": {
+        "title": "Grooming and Pet Shop",
+        "description": "Hygiene, styling, and selected products for your pet's daily wellbeing."
+      }
+    },
+    "trustStats": {
+      "experienceYears": {
+        "value": "15+",
+        "label": "Years of experience"
+      },
+      "petsAttended": {
+        "value": "5,000+",
+        "label": "Pets attended"
+      },
+      "customerRating": {
+        "value": "4.9/5",
+        "label": "Client rating"
+      },
+      "extendedHours": {
+        "value": "6 days",
+        "label": "Weekly service"
+      }
+    },
+    "aboutPillars": {
+      "humanCare": {
+        "title": "Compassionate Care",
+        "description": "We listen to each pet parent, explain diagnoses clearly, and build realistic care plans for each pet's wellbeing."
+      },
+      "medicalCriteria": {
+        "title": "Clinical Standards",
+        "description": "We apply evidence-based protocols to make timely decisions in prevention, diagnostics, and treatment."
+      },
+      "continuousFollowup": {
+        "title": "Continuous Follow-up",
+        "description": "Care does not end at the visit: we provide home guidance, scheduled checks, and evolution monitoring by case."
+      }
+    },
+    "staff": {
+      "drEnrique": {
+        "name": "Dr. Carlos Enrique",
+        "role": "Medical Director · Internal Medicine",
+        "bio": "Leads comprehensive clinical evaluations and coordinates therapeutic plans for canine and feline patients.",
+        "imageAlt": "Veterinarian examining a pet during consultation"
+      },
+      "draLucia": {
+        "name": "Dr. Lucia Mendoza",
+        "role": "Veterinary Doctor · Prevention and Vaccination",
+        "bio": "Focused on preventive medicine, vaccination schedules, and nutrition guidance for early and adult life stages.",
+        "imageAlt": "Veterinary doctor smiling in clinic"
+      },
+      "drMarco": {
+        "name": "Dr. Marco Salazar",
+        "role": "Veterinary Doctor · Surgery and Urgent Care",
+        "bio": "Handles surgical procedures, first-response stabilization, and post-operative follow-up for safe recovery.",
+        "imageAlt": "Veterinarian in clinical area"
       }
     },
     "testimonials": {
-      "projectOwner": {
-        "name": "Project Owner",
-        "text": "The starter kit reduced setup time and gave us a clean structure for future client pages."
+      "petParentAna": {
+        "name": "Ana M. · Luna's pet parent",
+        "text": "They always explain treatment clearly and handle Luna with great patience."
       },
-      "frontendDeveloper": {
-        "name": "Frontend Developer",
-        "text": "Reusable blocks and tokens made branding changes extremely fast."
+      "petParentLuis": {
+        "name": "Luis R. · Toby's pet parent",
+        "text": "The care was fast and professional. They helped us solve an urgent case the same day."
       },
-      "freelanceTeam": {
-        "name": "Freelance Team",
-        "text": "We now clone one repo and ship customized landings in a fraction of the time."
+      "petParentSofia": {
+        "name": "Sofia P. · Misha's pet parent",
+        "text": "I value their follow-up after each visit. You can see real commitment to every pet."
+      }
+    },
+    "faq": {
+      "firstVisit": {
+        "question": "What should I bring to the first appointment?",
+        "answer": "Bring your pet's vaccination card, medical records if available, and a brief summary of symptoms or behavior changes."
+      },
+      "vaccines": {
+        "question": "How often should my pet get vaccinated?",
+        "answer": "It depends on age, species, and health status. We review each case and define a tailored schedule."
+      },
+      "emergency": {
+        "question": "Do you provide emergency care?",
+        "answer": "Yes. We provide first response and stabilization. Message us on WhatsApp for immediate guidance."
+      },
+      "paymentMethods": {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept cash, bank transfers, and common local digital payment methods."
       }
     }
   }

@@ -1,19 +1,30 @@
 :root {
-  --color-primary: #153f6b;
-  --color-primary-700: #103760;
-  --color-primary-800: #0d3259;
-  --color-secondary: #2f8f8d;
-  --color-accent: #f28a1b;
+  /* Brand core (logo-aligned) */
+  --color-primary: #f59d1a;
+  --color-primary-700: #dd870f;
+  --color-primary-800: #c7730b;
 
-  --color-text-primary: #2f2f2f;
-  --color-text-muted: #33597d;
+  /* UI-safe red + raw brand red */
+  --color-secondary: #cf2e2e;
+  --color-secondary-brand: #ea0809;
+  --color-accent: #121212;
+
+  /* Readability helpers */
+  --color-on-primary: #ffffff;
+  --color-on-secondary: #1f1f1f;
+
+  --color-text-primary: #1f1f1f;
+  --color-text-muted: #5f5a55;
+
   --color-surface: #ffffff;
-  --color-bg-page: #fafafa;
-  --color-bg-soft: #f4f7fa;
-  --color-border: #d8dce0;
-  --color-border-soft: #ececec;
+  --color-bg-page: #fffaf5;
+  --color-bg-soft: #f7efe3;
 
-  --color-primary-rgb: 21, 63, 107;
+  --color-border: #e6ddd1;
+  --color-border-soft: #f2ece3;
+
+  --color-primary-rgb: 245, 157, 26;
+  --color-secondary-rgb: 207, 46, 46;
   --radius-sm: 0.6rem;
   --radius-md: 1rem;
   --radius-lg: 1.2rem;
