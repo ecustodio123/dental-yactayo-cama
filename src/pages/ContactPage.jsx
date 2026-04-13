@@ -1,5 +1,4 @@
 import ContactBlock from "../components/blocks/ContactBlock";
-import FaqBlock from "../components/blocks/FaqBlock";
 import { useI18n } from "../lang/i18n";
 import Container from "../components/primitives/Container";
 import SectionHeading from "../components/primitives/SectionHeading";
@@ -44,12 +43,6 @@ function ContactPage() {
       </section>
 
       <ContactBlock showHeading={false} sectionClassName="contact-page-form" />
-      <FaqBlock
-        sectionId="faq-contact"
-        titleKey="pages.contact.faqTitle"
-        descriptionKey="pages.contact.faqDescription"
-        sectionClassName="surface-section"
-      />
     </main>
   );
 }

@@ -10,7 +10,7 @@ function SiteFooter() {
   return (
     <footer className="footer">
       <Container className="footer-grid">
-        <div>
+        <div className="footer-brand">
           <h3 style={{ marginTop: 0 }}>{t("footer.title")}</h3>
           <p>{t("footer.description")}</p>
           <p>{t("business.address")}</p>

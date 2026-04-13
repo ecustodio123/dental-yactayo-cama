@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Enro's Vet | Clínica Veterinaria en Chilca"
+    "title": "Enro's Vet | Clínica Veterinaria"
   },
   "language": {
     "switchLabel": "Idioma",
@@ -74,31 +74,50 @@
   },
   "home": {
     "hero": {
-      "kicker": "Clínica Veterinaria en Chilca",
-      "title": "Cuidado veterinario confiable para perros, gatos y mascotas del hogar",
-      "description": "En Enro's Vet acompañamos la salud de tu mascota con medicina preventiva, diagnóstico clínico y atención cálida para cada etapa de su vida.",
-      "cta": "Agendar cita por WhatsApp",
+      "kicker": "Clínica Veterinaria",
+      "title": "Enro's Vet",
+      "description": "Realizamos diagnóstico clínico, cirugía veterinaria y seguimiento profesional para que tu mascota reciba el mejor cuidado en cada etapa.",
+      "cta": "Agenda una consulta",
       "ctaSecondary": "Ver contacto",
       "highlightsAria": "Beneficios de Enro's Vet",
       "highlight1": "Atención personalizada con seguimiento clínico",
       "highlight2": "Más de 15 años cuidando mascotas en Chilca",
       "highlight3": "Servicios médicos, grooming y pet shop en un solo lugar",
-      "imageAlt": "Veterinaria revisando a un perro en consulta"
+      "imageAlt": "Médico veterinario de Enro's Vet"
     },
     "servicesBlock": {
       "title": "Especialidades y Servicios",
       "description": "Conoce de forma clara todo lo que podemos hacer por la salud y bienestar de tu mascota.",
       "intro": "Brindamos atención integral especializada con protocolos médicos y diagnóstico oportuno para cada etapa de vida de tu mascota.",
       "supportTitle": "Servicios complementarios",
-      "cta": "Hablar con el equipo veterinario"
+      "cta": "Hablar con el equipo veterinario",
+      "allServicesCta": "Ver catálogo completo de servicios"
     },
     "trustBlock": {
       "title": "Por Qué Elegirnos",
       "description": "Resultados medibles y experiencia local para cuidar mejor a tu mascota."
     },
+    "aboutTeaser": {
+      "kicker": "Conoce a Enro's Vet",
+      "title": "Atención veterinaria con enfoque humano y seguimiento real",
+      "description": "Combinamos medicina preventiva, diagnóstico clínico y acompañamiento continuo para que tu mascota reciba un cuidado seguro y cercano en cada etapa.",
+      "listAria": "Fortalezas de Enro's Vet",
+      "point1": "Equipo multidisciplinario para casos de rutina y complejos",
+      "point2": "Protocolos claros para explicar diagnóstico y tratamiento",
+      "point3": "Coordinación rápida por WhatsApp para resolver dudas",
+      "cta": "Conocer nuestra historia y staff",
+      "imageAlt": "Equipo veterinario atendiendo a un perro en consulta"
+    },
     "testimonialsBlock": {
       "title": "Lo Que Dicen Nuestros Clientes",
       "description": "Familias de Chilca que confían en Enro's Vet para el cuidado de sus mascotas."
+    },
+    "ctaStrip": {
+      "kicker": "Agenda rápida",
+      "title": "¿Tu mascota necesita atención hoy?",
+      "description": "Nuestro equipo puede orientarte de inmediato y coordinar una cita según el caso y disponibilidad.",
+      "primaryCta": "Reservar por WhatsApp",
+      "secondaryCta": "Llamar ahora"
     },
     "faqBlock": {
       "title": "Preguntas Frecuentes",

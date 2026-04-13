@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Enro's Vet | Veterinary Clinic in Chilca"
+    "title": "Enro's Vet | Veterinary Clinic"
   },
   "language": {
     "switchLabel": "Language",
@@ -74,31 +74,50 @@
   },
   "home": {
     "hero": {
-      "kicker": "Veterinary Clinic in Chilca",
-      "title": "Trusted veterinary care for dogs, cats, and family pets",
-      "description": "At Enro's Vet we support your pet's health with preventive medicine, clinical diagnostics, and compassionate care at every life stage.",
-      "cta": "Book appointment on WhatsApp",
+      "kicker": "Veterinary Clinic",
+      "title": "Enro's vet",
+      "description": "We provide clinical diagnostics, veterinary surgery, and professional follow-up so your pet receives high-quality care at every stage.",
+      "cta": "Book a consultation",
       "ctaSecondary": "View contact",
       "highlightsAria": "Enro's Vet highlights",
       "highlight1": "Personalized care with clinical follow-up",
       "highlight2": "15+ years caring for pets in Chilca",
       "highlight3": "Medical care, grooming, and pet shop in one place",
-      "imageAlt": "Veterinarian checking a dog during consultation"
+      "imageAlt": "Enro's Vet veterinarian"
     },
     "servicesBlock": {
       "title": "Specialties and Services",
       "description": "Explore all our veterinary services in a clear format so you can choose the right care faster.",
       "intro": "We provide comprehensive specialized care with medical protocols and timely diagnostics for every life stage.",
       "supportTitle": "Complementary services",
-      "cta": "Talk to our veterinary team"
+      "cta": "Talk to our veterinary team",
+      "allServicesCta": "View full services catalog"
     },
     "trustBlock": {
       "title": "Why Pet Owners Choose Us",
       "description": "Local experience and measurable outcomes to keep your pet healthier."
     },
+    "aboutTeaser": {
+      "kicker": "Meet Enro's Vet",
+      "title": "Veterinary care with a human approach and real follow-up",
+      "description": "We combine preventive medicine, clinical diagnostics, and ongoing support so your pet receives safe and caring treatment at every stage.",
+      "listAria": "Enro's Vet strengths",
+      "point1": "Multidisciplinary team for routine and complex cases",
+      "point2": "Clear protocols to explain diagnosis and treatment",
+      "point3": "Fast coordination through WhatsApp for quick guidance",
+      "cta": "See our story and staff",
+      "imageAlt": "Veterinary team examining a dog during consultation"
+    },
     "testimonialsBlock": {
       "title": "What Our Clients Say",
       "description": "Pet families in Chilca who trust Enro's Vet for ongoing care."
+    },
+    "ctaStrip": {
+      "kicker": "Quick booking",
+      "title": "Does your pet need care today?",
+      "description": "Our team can guide you immediately and schedule an appointment based on your pet's case and availability.",
+      "primaryCta": "Book on WhatsApp",
+      "secondaryCta": "Call now"
     },
     "faqBlock": {
       "title": "Frequently Asked Questions",

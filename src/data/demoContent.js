@@ -1,7 +1,10 @@
-import EnricoCustodio from "../assets/img/staff/EnricoCustodio.jpg"
+import EnricoCustodio from "../assets/img/staff/EnricoCustodio.jpg";
+import EnricoCustodioNoBg from "../assets/img/staff/EnricoCustodioNoBg.png";
+import Consulta from "../assets/img/consulta.png";
 
-export const heroImage =
-  "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=1200&q=80";
+export const heroImage = EnricoCustodioNoBg;
+
+export const aboutTeaserImage = Consulta;
 
 export const services = [
   {
