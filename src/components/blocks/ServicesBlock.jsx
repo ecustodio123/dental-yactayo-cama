@@ -25,7 +25,6 @@ function ServicesBlock() {
             />
           )}
           visibleItems={4}
-          autoplayMs={2600}
         />
       </Container>
     </section>

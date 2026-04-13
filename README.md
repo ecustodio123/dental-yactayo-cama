@@ -9,7 +9,7 @@ Reusable React starter for building landing pages fast.
 - Tailwind CSS v4 support
 - Design tokens (`src/theme/tokens.css`)
 - Reusable components (`primitives`, `composites`, `layout`, `blocks`)
-- Loop carousel (autoplay + drag)
+- Loop carousel (click + drag, with mobile autoplay)
 - Cloudflare SPA fallback (`public/_redirects`)
 
 ## Structure

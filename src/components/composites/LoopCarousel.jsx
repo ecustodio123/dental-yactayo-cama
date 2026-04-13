@@ -1,12 +1,14 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useI18n } from "../../lang/i18n";
 
-function LoopCarousel({ items, renderItem, visibleItems = 4, autoplayMs = 2800 }) {
+const MOBILE_BREAKPOINT = 720;
+
+function LoopCarousel({ items, renderItem, visibleItems = 4, mobileAutoplayMs = 2600 }) {
   const { t } = useI18n();
   const [startIndex, setStartIndex] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
   const [effectiveVisibleItems, setEffectiveVisibleItems] = useState(visibleItems);
+  const [isMobileViewport, setIsMobileViewport] = useState(false);
   const startXRef = useRef(0);
   const dragThreshold = 45;
 
@@ -18,11 +20,15 @@ function LoopCarousel({ items, renderItem, visibleItems = 4, autoplayMs = 2800 }
 
   useEffect(() => {
     const resolveVisibleItems = () => {
-      if (window.innerWidth <= 720) {
+      if (window.innerWidth <= MOBILE_BREAKPOINT) {
         return 1;
       }
 
-      if (window.innerWidth <= 1024) {
+      if (window.innerWidth <= 900) {
+        return 1;
+      }
+
+      if (window.innerWidth <= 1200) {
         return Math.min(2, visibleItems);
       }
 
@@ -30,6 +36,7 @@ function LoopCarousel({ items, renderItem, visibleItems = 4, autoplayMs = 2800 }
     };
 
     const applyVisibleItems = () => {
+      setIsMobileViewport(window.innerWidth <= MOBILE_BREAKPOINT);
       setEffectiveVisibleItems(resolveVisibleItems());
     };
 
@@ -39,16 +46,16 @@ function LoopCarousel({ items, renderItem, visibleItems = 4, autoplayMs = 2800 }
   }, [visibleItems]);
 
   useEffect(() => {
-    if (!canNavigate || isPaused) {
+    if (!isMobileViewport || !canNavigate || isDragging) {
       return undefined;
     }
 
     const timer = window.setInterval(() => {
       setStartIndex((prev) => (prev + step) % total);
-    }, autoplayMs);
+    }, mobileAutoplayMs);
 
     return () => window.clearInterval(timer);
-  }, [autoplayMs, canNavigate, isPaused, step, total]);
+  }, [canNavigate, isDragging, isMobileViewport, mobileAutoplayMs, step, total]);
 
   const visible = useMemo(() => {
     if (!total) {
@@ -84,7 +91,6 @@ function LoopCarousel({ items, renderItem, visibleItems = 4, autoplayMs = 2800 }
 
   const onMouseDown = (event) => {
     setIsDragging(true);
-    setIsPaused(true);
     startXRef.current = event.clientX;
   };
 
@@ -106,19 +112,10 @@ function LoopCarousel({ items, renderItem, visibleItems = 4, autoplayMs = 2800 }
 
   const onDragEnd = () => {
     setIsDragging(false);
-    setIsPaused(false);
   };
 
   return (
-    <div
-      className={`loop-carousel ${isDragging ? "dragging" : ""}`.trim()}
-      onMouseEnter={() => setIsPaused(true)}
-      onMouseLeave={() => {
-        if (!isDragging) {
-          setIsPaused(false);
-        }
-      }}
-    >
+    <div className={`loop-carousel ${isDragging ? "dragging" : ""}`.trim()}>
       <button
         type="button"
         className="loop-carousel__arrow loop-carousel__arrow--prev"
@@ -137,7 +134,6 @@ function LoopCarousel({ items, renderItem, visibleItems = 4, autoplayMs = 2800 }
         onMouseLeave={onDragEnd}
         onTouchStart={(event) => {
           setIsDragging(true);
-          setIsPaused(true);
           startXRef.current = event.touches[0].clientX;
         }}
         onTouchMove={(event) => {
@@ -157,7 +153,14 @@ function LoopCarousel({ items, renderItem, visibleItems = 4, autoplayMs = 2800 }
         }}
         onTouchEnd={onDragEnd}
       >
-        <div className="loop-carousel__track">{visible.map(({ item, index }) => renderItem(item, index))}</div>
+        <div
+          className="loop-carousel__track"
+          style={{
+            gridTemplateColumns: `repeat(${effectiveVisibleItems}, minmax(0, 1fr))`,
+          }}
+        >
+          {visible.map(({ item, index }) => renderItem(item, index))}
+        </div>
       </div>
 
       <button

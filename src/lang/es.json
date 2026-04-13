@@ -53,7 +53,7 @@
     },
     "servicesBlock": {
       "title": "Carrusel Reutilizable de Tarjetas de Servicio",
-      "description": "Carrusel con autoplay y arrastre que puedes reutilizar en páginas landing."
+      "description": "Carrusel con navegación por clic y arrastre, con autoplay en mobile, reutilizable para páginas landing."
     },
     "testimonialsBlock": {
       "title": "Sección de Testimonios",
