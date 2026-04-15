@@ -1,30 +1,29 @@
 :root {
-  /* Brand core (logo-aligned) */
-  --color-primary: #f59d1a;
-  --color-primary-700: #dd870f;
-  --color-primary-800: #c7730b;
+  /* Dental palette: clinical blue + sky blue */
+  --color-primary: #0b5ed7;
+  --color-primary-700: #084cb2;
+  --color-primary-800: #063a8a;
 
-  /* UI-safe red + raw brand red */
-  --color-secondary: #cf2e2e;
-  --color-secondary-brand: #ea0809;
-  --color-accent: #121212;
+  --color-secondary: #20a4f3;
+  --color-secondary-brand: #0bb4d8;
+  --color-accent: #0e2a47;
 
   /* Readability helpers */
   --color-on-primary: #ffffff;
-  --color-on-secondary: #1f1f1f;
+  --color-on-secondary: #05243a;
 
-  --color-text-primary: #1f1f1f;
-  --color-text-muted: #5f5a55;
+  --color-text-primary: #14263a;
+  --color-text-muted: #4e647a;
 
   --color-surface: #ffffff;
-  --color-bg-page: #fffaf5;
-  --color-bg-soft: #f7efe3;
+  --color-bg-page: #f3f9ff;
+  --color-bg-soft: #eaf4ff;
 
-  --color-border: #e6ddd1;
-  --color-border-soft: #f2ece3;
+  --color-border: #cfe2f3;
+  --color-border-soft: #e3effa;
 
-  --color-primary-rgb: 245, 157, 26;
-  --color-secondary-rgb: 207, 46, 46;
+  --color-primary-rgb: 11, 94, 215;
+  --color-secondary-rgb: 32, 164, 243;
   --radius-sm: 0.6rem;
   --radius-md: 1rem;
   --radius-lg: 1.2rem;

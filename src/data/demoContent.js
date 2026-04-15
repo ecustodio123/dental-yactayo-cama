@@ -1,36 +1,35 @@
-import EnricoCustodio from "../assets/img/staff/EnricoCustodio.jpg";
 import EnricoCustodioNoBg from "../assets/img/staff/EnricoCustodioNoBg.png";
-import Consulta from "../assets/img/consulta.png";
 
 export const heroImage = EnricoCustodioNoBg;
 
-export const aboutTeaserImage = Consulta;
+export const aboutTeaserImage =
+  "https://images.unsplash.com/photo-1588776814546-daab30f310ce?auto=format&fit=crop&w=1200&q=80";
 
 export const services = [
   {
     id: "preventiveConsultation",
     image:
-      "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?auto=format&fit=crop&w=1200&q=80",
   },
   {
     id: "vaccinationAndDeworming",
     image:
-      "https://images.unsplash.com/photo-1527526029430-319f10814151?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=1200&q=80",
   },
   {
     id: "clinicalLab",
     image:
-      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80",
   },
   {
     id: "surgeryAndHospitalization",
     image:
-      "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=1200&q=80",
   },
   {
     id: "groomingAndPetshop",
     image:
-      "https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?auto=format&fit=crop&w=1200&q=80",
   },
 ];
 
@@ -38,37 +37,37 @@ export const serviceShowcase = [
   {
     id: "generalConsultation",
     image:
-      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1588776814546-daab30f310ce?auto=format&fit=crop&w=1200&q=80",
     pointKeys: ["point1", "point2", "point3"],
   },
   {
     id: "cardiologyConsultation",
     image:
-      "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1571772996211-2f02c9727629?auto=format&fit=crop&w=1200&q=80",
     pointKeys: ["point1", "point2", "point3", "point4"],
   },
   {
     id: "traumatologyConsultation",
     image:
-      "https://images.unsplash.com/photo-1599443015574-be5fe8a05783?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=1200&q=80",
     pointKeys: ["point1", "point2", "point3"],
   },
   {
     id: "dermatologyConsultation",
     image:
-      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1200&q=80",
     pointKeys: ["point1", "point2", "point3"],
   },
   {
     id: "ophthalmologyConsultation",
     image:
-      "https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?auto=format&fit=crop&w=1200&q=80",
     pointKeys: ["point1", "point2", "point3"],
   },
   {
     id: "abdominalUltrasound",
     image:
-      "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80",
     pointKeys: ["point1", "point2", "point3"],
   },
 ];
@@ -94,7 +93,8 @@ export const aboutPillars = [{ id: "humanCare" }, { id: "medicalCriteria" }, { i
 export const staffMembers = [
   {
     id: "drEnrique",
-    image: EnricoCustodio,
+    image:
+      "https://images.unsplash.com/photo-1588776814546-daab30f310ce?auto=format&fit=crop&w=1200&q=80",
   },
   {
     id: "draLucia",
@@ -104,7 +104,7 @@ export const staffMembers = [
   {
     id: "drMarco",
     image:
-      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=1200&q=80",
   },
 ];
 

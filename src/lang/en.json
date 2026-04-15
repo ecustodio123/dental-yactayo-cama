@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Enro's Vet | Veterinary Clinic"
+    "title": "Yactayo Cama | Dental Clinic"
   },
   "language": {
     "switchLabel": "Language",
@@ -8,12 +8,12 @@
     "es": "ES"
   },
   "logo": {
-    "subtitle": "Veterinary Clinic"
+    "subtitle": "Dental Clinic"
   },
   "header": {
     "homeAria": "Go to homepage",
     "navAria": "Primary navigation",
-    "cta": "Book on WhatsApp"
+    "cta": "Book appointment"
   },
   "navigation": {
     "home": "Home",
@@ -28,42 +28,43 @@
     "tiktok": "TikTok"
   },
   "business": {
-    "phoneHref": "519737919770",
-    "phoneDisplay": "+51 973 791 977",
-    "whatsappHref": "https://wa.me/519737919770?text=Hi%20Enro%27s%20Vet%2C%20I%20would%20like%20to%20book%20an%20appointment.",
-    "address": "Av. Salaverry 277, Chilca",
-    "hours": "Hours: Mon-Sat 9:00 AM - 8:00 PM",
-    "email": "contacto@enrosvet.pe",
+    "phoneHref": "51991998676",
+    "phoneDisplay": "+51 991 998 676",
+    "whatsappHref": "https://wa.me/51991998676?text=Hi%20Yactayo%20Cama%20Dental%20Clinic%2C%20I%20would%20like%20to%20book%20an%20appointment.",
+    "address": "Av Antúnez de Mayolo 1272 Urb. Covida - Los Olivos",
+    "hours": "Hours: Mon-Sat 9:00 AM - 7:00 PM",
+    "email": "contacto@yactayocama.com",
+    "mapEmbedUrl": "https://maps.google.com/maps?q=Av%20Ant%C3%BAnez%20de%20Mayolo%201272%20Urb.%20Covida%20-%20Los%20Olivos&t=&z=16&ie=UTF8&iwloc=&output=embed",
     "social": {
-      "facebook": "https://www.facebook.com/veterinariaenrosvet",
-      "instagram": "https://www.instagram.com/enrosvet.chilca/?hl=es",
-      "tiktok": "https://www.tiktok.com/@enros_vet"
+      "facebook": "https://www.facebook.com/yactayocama",
+      "instagram": "https://instagram.com/yactayocama",
+      "tiktok": "https://tiktok.com/@yactayocama"
     }
   },
   "mainNav": {
     "categories": {
-      "preventiveCare": "Preventive Care",
+      "preventiveCare": "Prevention",
       "diagnostics": "Diagnostics",
-      "procedures": "Procedures",
-      "wellness": "Wellness"
+      "procedures": "Treatments",
+      "wellness": "Dental Aesthetics"
     },
     "options": {
-      "wellnessCheck": "Wellness check",
-      "vaccinationPlan": "Vaccination plan",
-      "deworming": "Deworming",
-      "nutritionAdvice": "Nutrition advice",
-      "labTests": "Lab tests",
-      "imaging": "X-ray and ultrasound",
-      "dermatology": "Dermatology",
-      "seniorProfile": "Senior profile",
-      "softTissueSurgery": "Soft tissue surgery",
-      "dentalCleaning": "Dental cleaning",
-      "hospitalization": "Hospitalization",
-      "emergencyCare": "Emergency care",
-      "grooming": "Grooming",
-      "petShop": "Pet shop",
-      "behaviorGuidance": "Behavior guidance",
-      "travelCertificate": "Travel certificate"
+      "wellnessCheck": "Comprehensive evaluation",
+      "vaccinationPlan": "Prophylaxis and cleaning",
+      "deworming": "Fluoride application",
+      "nutritionAdvice": "Oral hygiene education",
+      "labTests": "Dental X-rays",
+      "imaging": "Intraoral photography",
+      "dermatology": "Caries diagnosis",
+      "seniorProfile": "Adult and senior dental check-up",
+      "softTissueSurgery": "Minor oral surgery",
+      "dentalCleaning": "Deep dental cleaning",
+      "hospitalization": "Oral rehabilitation",
+      "emergencyCare": "Dental emergencies",
+      "grooming": "Teeth whitening",
+      "petShop": "Smile design",
+      "behaviorGuidance": "Post-treatment guidance",
+      "travelCertificate": "Dental certificate"
     }
   },
   "carousel": {
@@ -74,73 +75,73 @@
   },
   "home": {
     "hero": {
-      "kicker": "Veterinary Clinic",
-      "title": "Enro's vet",
-      "description": "We provide clinical diagnostics, veterinary surgery, and professional follow-up so your pet receives high-quality care at every stage.",
-      "cta": "Book a consultation",
+      "kicker": "Dental Clinic",
+      "title": "Yactayo Cama",
+      "description": "Comprehensive dental care with digital technology, preventive focus, and personalized treatments for the whole family.",
+      "cta": "Book your evaluation",
       "ctaSecondary": "View contact",
-      "highlightsAria": "Enro's Vet highlights",
-      "highlight1": "Personalized care with clinical follow-up",
-      "highlight2": "15+ years caring for pets in Chilca",
-      "highlight3": "Medical care, grooming, and pet shop in one place",
-      "imageAlt": "Enro's Vet veterinarian"
+      "highlightsAria": "Yactayo Cama highlights",
+      "highlight1": "Accurate diagnosis and clear treatment explanations",
+      "highlight2": "10+ years improving smiles in Lima",
+      "highlight3": "Prevention, rehabilitation, and aesthetics in one place",
+      "imageAlt": "Dental specialist treating a patient"
     },
     "servicesBlock": {
       "title": "Specialties and Services",
-      "description": "Explore all our veterinary services in a clear format so you can choose the right care faster.",
-      "intro": "We provide comprehensive specialized care with medical protocols and timely diagnostics for every life stage.",
+      "description": "Explore how we can help you keep a healthy smile.",
+      "intro": "We provide preventive, restorative, and aesthetic dental care with modern protocols and ongoing follow-up.",
       "supportTitle": "Complementary services",
-      "cta": "Talk to our veterinary team",
+      "cta": "Talk to our dental team",
       "allServicesCta": "View full services catalog"
     },
     "trustBlock": {
-      "title": "Why Pet Owners Choose Us",
-      "description": "Local experience and measurable outcomes to keep your pet healthier."
+      "title": "Why Patients Choose Us",
+      "description": "Consistent outcomes, close care, and a strong clinical approach to oral health."
     },
     "aboutTeaser": {
-      "kicker": "Meet Enro's Vet",
-      "title": "Veterinary care with a human approach and real follow-up",
-      "description": "We combine preventive medicine, clinical diagnostics, and ongoing support so your pet receives safe and caring treatment at every stage.",
-      "listAria": "Enro's Vet strengths",
-      "point1": "Multidisciplinary team for routine and complex cases",
-      "point2": "Clear protocols to explain diagnosis and treatment",
-      "point3": "Fast coordination through WhatsApp for quick guidance",
+      "kicker": "Meet Yactayo Cama",
+      "title": "Modern dentistry with a human approach and real follow-up",
+      "description": "We combine prevention, digital diagnostics, and tailored treatment plans so every patient receives safe and reliable care.",
+      "listAria": "Yactayo Cama strengths",
+      "point1": "Specialized team for preventive, restorative, and aesthetic cases",
+      "point2": "Clear treatment plans with timeline, cost, and goals",
+      "point3": "WhatsApp guidance for post-visit questions",
       "cta": "See our story and staff",
-      "imageAlt": "Veterinary team examining a dog during consultation"
+      "imageAlt": "Dental team assisting during consultation"
     },
     "testimonialsBlock": {
-      "title": "What Our Clients Say",
-      "description": "Pet families in Chilca who trust Enro's Vet for ongoing care."
+      "title": "What Our Patients Say",
+      "description": "People who trust Yactayo Cama for their dental care."
     },
     "ctaStrip": {
       "kicker": "Quick booking",
-      "title": "Does your pet need care today?",
-      "description": "Our team can guide you immediately and schedule an appointment based on your pet's case and availability.",
+      "title": "Do you have dental pain today?",
+      "description": "Our team can guide you right away and schedule your appointment based on availability.",
       "primaryCta": "Book on WhatsApp",
       "secondaryCta": "Call now"
     },
     "faqBlock": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers before your next visit."
+      "description": "Quick answers before your next dental visit."
     }
   },
   "contactBlock": {
     "title": "Book Your Appointment",
-    "description": "Fill out the form and we will contact you to confirm date, time, and service.",
+    "description": "Fill out the form and we will contact you to confirm date, time, and treatment.",
     "panelTitle": "Fast WhatsApp support",
-    "panelDescription": "If you need an immediate response, message us and we will guide you based on your pet's case.",
+    "panelDescription": "If you need an immediate response, message us and we will guide you based on your case.",
     "whatsappCta": "Chat on WhatsApp",
     "fields": {
       "fullName": "Full name*",
       "phone": "Phone*",
       "email": "Email*",
       "interestedIn": "Service of interest",
-      "message": "Tell us what your pet needs"
+      "message": "Tell us what you would like to treat"
     },
     "options": {
-      "option1": "Medical consultation",
-      "option2": "Vaccination",
-      "option3": "Grooming"
+      "option1": "Dental evaluation",
+      "option2": "Dental cleaning",
+      "option3": "Smile design"
     },
     "sending": "Sending...",
     "feedback": {
@@ -149,29 +150,29 @@
       "configError": "EmailJS environment variables are missing. Configure .env.local using .env.example."
     },
     "submit": "Request appointment",
-    "mapTitle": "Enro's Vet location in Chilca"
+    "mapTitle": "Yactayo Cama Dental Clinic location"
   },
   "pages": {
     "about": {
       "title": "About Us",
-      "description": "We are a veterinary clinic in Chilca focused on preventive medicine, timely diagnostics, and close support for every pet family.",
-      "storyTitle": "About Enro's Vet",
-      "storyText": "At Enro’s Vet, we believe that every pet is part of the family, and therefore deserves medical care based on trust, respect, and closeness. We were founded with the purpose of providing clear and compassionate veterinary care, where every owner can understand their pet’s health condition and feel supported in every decision.\nOur team combines clinical experience with a preventive approach, prioritizing early detection of diseases and the overall well-being of each patient. We know that good communication is key, which is why we explain every diagnosis and treatment in a simple way, so you can always feel confident and informed.\nBeyond each consultation, we aim to build long-term relationships with every family that trusts us. We focus on creating a safe and welcoming environment where both pets and their owners feel comfortable and well cared for.\nAt Enro’s Vet, we don’t just care for your pet’s health, we also care for the trust you place in us.",
-      "pillarsAria": "Enro's Vet care pillars",
+      "description": "We are a dental clinic focused on prevention, timely diagnosis, and personalized treatment plans for each patient.",
+      "storyTitle": "About Yactayo Cama",
+      "storyText": "At Yactayo Cama Dental Clinic, we believe a healthy smile improves quality of life. We were founded to provide dental care that is clear, human-centered, and clinically solid for every life stage.\nOur team combines clinical experience and digital technology to achieve precise diagnosis and more comfortable treatments. We explain every option in simple terms so you can make confident decisions.\nWe focus on prevention, rehabilitation, and dental aesthetics through personalized plans that prioritize your long-term oral health.\nMore than a visit, we aim to build lasting trust with every patient and family.",
+      "pillarsAria": "Yactayo Cama care pillars",
       "servicesCta": "View all services",
-      "staffTitle": "Our Veterinary Staff",
-      "staffDescription": "A multidisciplinary team for general consultations, clinical diagnostics, and ongoing follow-up care.",
-      "reviewsTitle": "Trusted by Pet Families",
-      "reviewsDescription": "A few experiences shared by clients who trust us with their pets."
+      "staffTitle": "Our Dental Staff",
+      "staffDescription": "A multidisciplinary team for consultations, restorative treatment, and ongoing follow-up.",
+      "reviewsTitle": "Trusted by Our Patients",
+      "reviewsDescription": "A few experiences shared by patients who trust us."
     },
     "contact": {
       "title": "Contact and Bookings",
       "description": "You can message us on WhatsApp, call us, or leave your details to schedule an appointment.",
-      "infoAria": "Enro's Vet contact channels",
+      "infoAria": "Yactayo Cama contact channels",
       "socialTitle": "Follow us on social media",
       "faqTitle": "Frequently asked questions before booking",
       "faqDescription": "Quick answers so you can schedule with more clarity.",
-      "referenceNote": "Layout inspired by common contact patterns from veterinary websites in Peru: immediate WhatsApp CTA, visible schedule, and map-based location.",
+      "referenceNote": "Contact-first layout for dental clinics: immediate WhatsApp CTA, visible schedule, and map-based location.",
       "cards": {
         "whatsapp": {
           "title": "Immediate assistance",
@@ -201,173 +202,173 @@
     }
   },
   "footer": {
-    "title": "Enro's Vet",
-    "description": "Trusted veterinary clinic in Chilca with complete care for family pets.",
+    "title": "Yactayo Cama",
+    "description": "Trusted dental clinic with comprehensive care for children, teens, and adults.",
     "highlights": {
-      "cloneBuild": "Preventive and clinical care",
-      "tokenBased": "Friendly and professional team",
+      "cloneBuild": "Prevention and personalized treatment",
+      "tokenBased": "Friendly and specialized team",
       "responsive": "Support before and after every appointment"
     },
-    "rights": "© 2026 Enro's Vet. All rights reserved."
+    "rights": "© 2026 Yactayo Cama. All rights reserved."
   },
   "catalog": {
     "serviceShowcase": {
       "generalConsultation": {
-        "title": "General Consultation",
-        "description": "Clinical check-up to detect early risks and define a health plan for your pet.",
-        "point1": "Weight, body condition, and vital signs review",
-        "point2": "Skin, ears, eyes, and oral cavity assessment",
-        "point3": "Preventive recommendations and home-care guidance"
+        "title": "General Dental Evaluation",
+        "description": "Comprehensive consultation to detect early risks and define an oral health plan.",
+        "point1": "Clinical review of gums, teeth, and bite",
+        "point2": "Detection of caries, inflammation, and wear",
+        "point3": "Preventive plan and oral hygiene guidance"
       },
       "cardiologyConsultation": {
-        "title": "Cardiology Consultation",
-        "description": "Specialized assessment for pets with murmurs, fatigue, or suspected heart disease.",
-        "point1": "Electrocardiogram for arrhythmia detection",
-        "point2": "Echocardiogram for structure and function analysis",
-        "point3": "Doppler echocardiography for blood-flow evaluation",
-        "point4": "Blood pressure monitoring and follow-up"
+        "title": "Restorative Dentistry",
+        "description": "Treatments to recover function and aesthetics in damaged teeth.",
+        "point1": "Aesthetic fillings for cavities and minor fractures",
+        "point2": "Inlays and functional reconstructions",
+        "point3": "Occlusal adjustment for more comfortable chewing",
+        "point4": "Clinical follow-up of restorations"
       },
       "traumatologyConsultation": {
-        "title": "Traumatology Consultation",
-        "description": "Care for musculoskeletal injuries, lameness, fractures, and joint pain.",
-        "point1": "Locomotor and basic neurological evaluation",
-        "point2": "Treatment plan based on the injury profile",
-        "point3": "Recovery and mobility follow-up"
+        "title": "Endodontics",
+        "description": "Root canal treatment to control pain, remove infection, and preserve the tooth.",
+        "point1": "Symptom and radiographic diagnosis",
+        "point2": "Canal cleaning and sealing with modern techniques",
+        "point3": "Post-treatment checks to ensure recovery"
       },
       "dermatologyConsultation": {
-        "title": "Dermatology Consultation",
-        "description": "Diagnosis and treatment of allergies, itching, hair loss, and skin infections.",
-        "point1": "Scraping, cytology, and complementary tests",
-        "point2": "Allergic dermatitis and otitis management",
-        "point3": "Treatment and skin-maintenance planning"
+        "title": "Periodontics",
+        "description": "Specialized care for gum inflammation, bleeding, and periodontal disease.",
+        "point1": "Periodontal assessment by severity level",
+        "point2": "Deep cleaning and subgingival plaque control",
+        "point3": "Long-term maintenance protocol"
       },
       "ophthalmologyConsultation": {
-        "title": "Ophthalmology Consultation",
-        "description": "Ocular evaluation to diagnose and treat visual and eye-related conditions.",
-        "point1": "Cornea, conjunctiva, and lens examination",
-        "point2": "Early detection of ulcers and cataracts",
-        "point3": "Therapeutic management and regular checks"
+        "title": "Pediatric Dentistry",
+        "description": "Dental care for children with preventive education and minimally invasive treatments.",
+        "point1": "Preventive check-ups by growth stage",
+        "point2": "Sealants and fluoride for enamel protection",
+        "point3": "Guidance for parents on hygiene and nutrition habits"
       },
       "abdominalUltrasound": {
-        "title": "Abdominal Ultrasound",
-        "description": "Non-invasive diagnostic imaging to evaluate internal organs and support clinical decisions.",
-        "point1": "Liver, kidney, and pancreas evaluation",
-        "point2": "Bladder, uterus, and lymph node review",
-        "point3": "Diagnostic support and treatment follow-up"
+        "title": "Digital Diagnostics",
+        "description": "Imaging technology to evaluate your case precisely before treatment.",
+        "point1": "Panoramic and periapical radiography as needed",
+        "point2": "Clinical photography for treatment tracking",
+        "point3": "Safer and better treatment planning"
       }
     },
     "serviceSupport": {
-      "microchipId": "Microchip identification",
-      "pharmacy": "In-house veterinary pharmacy",
-      "petShop": "Pet shop with recommended products",
+      "microchipId": "Digital radiography",
+      "pharmacy": "In-house dental pharmacy",
+      "petShop": "Recommended oral hygiene kit",
       "homeGuidance": "At-home care guidance",
       "postoperativeFollowup": "Post-operative follow-up",
-      "chronicDiseaseControl": "Chronic patient monitoring"
+      "chronicDiseaseControl": "Chronic periodontal case monitoring"
     },
     "services": {
       "preventiveConsultation": {
         "title": "Preventive Consultation",
-        "description": "General check-up to identify early risks and keep your pet healthy."
+        "description": "General evaluation to identify early risks and keep your smile healthy."
       },
       "vaccinationAndDeworming": {
-        "title": "Vaccination and Deworming",
-        "description": "Age-based and lifestyle-based protocols for year-round protection."
+        "title": "Dental Cleaning",
+        "description": "Professional prophylaxis to remove plaque and tartar and prevent periodontal disease."
       },
       "clinicalLab": {
-        "title": "Clinical Laboratory",
-        "description": "Diagnostic support tests for faster and more accurate medical decisions."
+        "title": "Imaging Diagnostics",
+        "description": "Dental radiographs and clinical records for more accurate clinical decisions."
       },
       "surgeryAndHospitalization": {
-        "title": "Surgery and Hospitalization",
-        "description": "Safe procedures with monitoring and guided recovery."
+        "title": "Rehabilitation and Oral Surgery",
+        "description": "Safe procedures to restore function, comfort, and aesthetics."
       },
       "groomingAndPetshop": {
-        "title": "Grooming and Pet Shop",
-        "description": "Hygiene, styling, and selected products for your pet's daily wellbeing."
+        "title": "Dental Aesthetics",
+        "description": "Whitening and smile harmonization with a conservative approach."
       }
     },
     "trustStats": {
       "experienceYears": {
-        "value": "15+",
+        "value": "10+",
         "label": "Years of experience"
       },
       "petsAttended": {
-        "value": "5,000+",
-        "label": "Pets attended"
+        "value": "8,000+",
+        "label": "Patients treated"
       },
       "customerRating": {
         "value": "4.9/5",
-        "label": "Client rating"
+        "label": "Patient rating"
       },
       "extendedHours": {
         "value": "6 days",
-        "label": "Weekly service"
+        "label": "Weekly care"
       }
     },
     "aboutPillars": {
       "humanCare": {
-        "title": "Compassionate Care",
-        "description": "We listen to each pet parent, explain diagnoses clearly, and build realistic care plans for each pet's wellbeing."
+        "title": "Personalized Care",
+        "description": "We listen carefully, explain options in plain language, and define a realistic plan for each patient."
       },
       "medicalCriteria": {
-        "title": "Clinical Standards",
-        "description": "We apply evidence-based protocols to make timely decisions in prevention, diagnostics, and treatment."
+        "title": "Clinical Criteria",
+        "description": "We apply updated protocols and evidence-based dentistry for timely and precise decisions."
       },
       "continuousFollowup": {
         "title": "Continuous Follow-up",
-        "description": "Care does not end at the visit: we provide home guidance, scheduled checks, and evolution monitoring by case."
+        "description": "Care does not end after the appointment. We monitor progress and reinforce habits for long-term results."
       }
     },
     "staff": {
       "drEnrique": {
-        "name": "Dr. Carlos Enrique",
-        "role": "Medical Director · Internal Medicine",
-        "bio": "Leads comprehensive clinical evaluations and coordinates therapeutic plans for canine and feline patients.",
-        "imageAlt": "Veterinarian examining a pet during consultation"
+        "name": "Dr. Carlos Yactayo",
+        "role": "Dental Director · Oral Rehabilitation",
+        "bio": "Leads comprehensive evaluations and coordinates restorative and functional treatment plans.",
+        "imageAlt": "Dentist treating a patient during consultation"
       },
       "draLucia": {
-        "name": "Dr. Lucia Mendoza",
-        "role": "Veterinary Doctor · Prevention and Vaccination",
-        "bio": "Focused on preventive medicine, vaccination schedules, and nutrition guidance for early and adult life stages.",
-        "imageAlt": "Veterinary doctor smiling in clinic"
+        "name": "Dr. Lucia Cama",
+        "role": "Dentist · Prevention and Aesthetics",
+        "bio": "Focused on preventive care, professional cleaning, and conservative smile design.",
+        "imageAlt": "Dentist smiling in clinic"
       },
       "drMarco": {
         "name": "Dr. Marco Salazar",
-        "role": "Veterinary Doctor · Surgery and Urgent Care",
-        "bio": "Handles surgical procedures, first-response stabilization, and post-operative follow-up for safe recovery.",
-        "imageAlt": "Veterinarian in clinical area"
+        "role": "Dentist · Endodontics and Emergency Care",
+        "bio": "Handles acute pain cases, root canal treatment, and clinical follow-up for safe recovery.",
+        "imageAlt": "Dentist in clinical area"
       }
     },
     "testimonials": {
       "petParentAna": {
-        "name": "Ana M. · Luna's pet parent",
-        "text": "They always explain treatment clearly and handle Luna with great patience."
+        "name": "Ana M.",
+        "text": "They explained my treatment clearly and the final result was excellent."
       },
       "petParentLuis": {
-        "name": "Luis R. · Toby's pet parent",
-        "text": "The care was fast and professional. They helped us solve an urgent case the same day."
+        "name": "Luis R.",
+        "text": "I had an urgent tooth pain and they treated me quickly with great empathy."
       },
       "petParentSofia": {
-        "name": "Sofia P. · Misha's pet parent",
-        "text": "I value their follow-up after each visit. You can see real commitment to every pet."
+        "name": "Sofia P.",
+        "text": "Great follow-up after the appointment. You can see real commitment from the team."
       }
     },
     "faq": {
       "firstVisit": {
         "question": "What should I bring to the first appointment?",
-        "answer": "Bring your pet's vaccination card, medical records if available, and a brief summary of symptoms or behavior changes."
+        "answer": "Bring previous exams if available and a short summary of symptoms or past dental treatments."
       },
       "vaccines": {
-        "question": "How often should my pet get vaccinated?",
-        "answer": "It depends on age, species, and health status. We review each case and define a tailored schedule."
+        "question": "How often should I get a dental cleaning?",
+        "answer": "Usually every 6 months, but it depends on your oral health and habits. We assess this during your consultation."
       },
       "emergency": {
-        "question": "Do you provide emergency care?",
-        "answer": "Yes. We provide first response and stabilization. Message us on WhatsApp for immediate guidance."
+        "question": "Do you provide dental emergency care?",
+        "answer": "Yes. We provide first-response care for acute pain, inflammation, or dental fractures. Message us on WhatsApp."
       },
       "paymentMethods": {
         "question": "What payment methods do you accept?",
-        "answer": "We accept cash, bank transfers, and common local digital payment methods."
+        "answer": "We accept cash, bank transfers, and digital payment methods."
       }
     }
   }

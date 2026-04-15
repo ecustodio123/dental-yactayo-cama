@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import { topNavLinks } from "../../data/navigation";
 import { useI18n } from "../../lang/i18n";
 import Container from "../primitives/Container";
+import BrandLogo from "./BrandLogo";
 import SocialLinks from "../primitives/SocialLinks";
 
 function SiteFooter() {
@@ -11,7 +12,7 @@ function SiteFooter() {
     <footer className="footer">
       <Container className="footer-grid">
         <div className="footer-brand">
-          <h3 style={{ marginTop: 0 }}>{t("footer.title")}</h3>
+          <BrandLogo className="footer-brand-logo" />
           <p>{t("footer.description")}</p>
           <p>{t("business.address")}</p>
           <p>{t("business.hours")}</p>

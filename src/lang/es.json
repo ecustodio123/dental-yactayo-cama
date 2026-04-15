@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Enro's Vet | Clínica Veterinaria"
+    "title": "Yactayo Cama | Clínica Dental"
   },
   "language": {
     "switchLabel": "Idioma",
@@ -8,12 +8,12 @@
     "es": "ES"
   },
   "logo": {
-    "subtitle": "Clínica Veterinaria"
+    "subtitle": "Clínica Dental"
   },
   "header": {
     "homeAria": "Ir al inicio",
     "navAria": "Navegación principal",
-    "cta": "Reservar por WhatsApp"
+    "cta": "Reservar cita"
   },
   "navigation": {
     "home": "Inicio",
@@ -28,42 +28,43 @@
     "tiktok": "TikTok"
   },
   "business": {
-    "phoneHref": "519737919770",
-    "phoneDisplay": "+51 973 791 977",
-    "whatsappHref": "https://wa.me/519737919770?text=Hola%20Enro%27s%20Vet%2C%20quiero%20agendar%20una%20cita.",
-    "address": "Av. Salaverry 277, Chilca",
-    "hours": "Horario: Lun-Sáb 9:00 AM - 8:00 PM",
-    "email": "contacto@enrosvet.pe",
+    "phoneHref": "51991998676",
+    "phoneDisplay": "+51 991 998 676",
+    "whatsappHref": "https://wa.me/51991998676?text=Hola%20Cl%C3%ADnica%20Dental%20Yactayo%20Cama%2C%20quiero%20agendar%20una%20cita.",
+    "address": "Av Antúnez de Mayolo 1272 Urb. Covida - Los Olivos",
+    "hours": "Horario: Lun-Sáb 9:00 AM - 7:00 PM",
+    "email": "contacto@yactayocama.com",
+    "mapEmbedUrl": "https://maps.google.com/maps?q=Av%20Ant%C3%BAnez%20de%20Mayolo%201272%20Urb.%20Covida%20-%20Los%20Olivos&t=&z=16&ie=UTF8&iwloc=&output=embed",
     "social": {
-      "facebook": "https://www.facebook.com/veterinariaenrosvet",
-      "instagram": "https://www.instagram.com/enrosvet.chilca/?hl=es",
-      "tiktok": "https://www.tiktok.com/@enros_vet"
+      "facebook": "https://www.facebook.com/yactayocama",
+      "instagram": "https://instagram.com/yactayocama",
+      "tiktok": "https://tiktok.com/@yactayocama"
     }
   },
   "mainNav": {
     "categories": {
       "preventiveCare": "Prevención",
       "diagnostics": "Diagnóstico",
-      "procedures": "Procedimientos",
-      "wellness": "Bienestar"
+      "procedures": "Tratamientos",
+      "wellness": "Estética dental"
     },
     "options": {
-      "wellnessCheck": "Consulta preventiva",
-      "vaccinationPlan": "Plan de vacunación",
-      "deworming": "Desparasitación",
-      "nutritionAdvice": "Consejería nutricional",
-      "labTests": "Análisis de laboratorio",
-      "imaging": "Rayos X y ecografía",
-      "dermatology": "Dermatología",
-      "seniorProfile": "Chequeo senior",
-      "softTissueSurgery": "Cirugía de tejidos blandos",
-      "dentalCleaning": "Limpieza dental",
-      "hospitalization": "Hospitalización",
-      "emergencyCare": "Atención de urgencia",
-      "grooming": "Baño y grooming",
-      "petShop": "Pet shop",
-      "behaviorGuidance": "Orientación conductual",
-      "travelCertificate": "Certificado para viaje"
+      "wellnessCheck": "Evaluación integral",
+      "vaccinationPlan": "Profilaxis y limpieza",
+      "deworming": "Aplicación de flúor",
+      "nutritionAdvice": "Educación en higiene oral",
+      "labTests": "Radiografía dental",
+      "imaging": "Fotografía intraoral",
+      "dermatology": "Diagnóstico de caries",
+      "seniorProfile": "Chequeo odontológico adulto mayor",
+      "softTissueSurgery": "Cirugía oral menor",
+      "dentalCleaning": "Limpieza dental profunda",
+      "hospitalization": "Rehabilitación oral",
+      "emergencyCare": "Urgencias odontológicas",
+      "grooming": "Blanqueamiento dental",
+      "petShop": "Diseño de sonrisa",
+      "behaviorGuidance": "Asesoría postratamiento",
+      "travelCertificate": "Certificado odontológico"
     }
   },
   "carousel": {
@@ -74,73 +75,73 @@
   },
   "home": {
     "hero": {
-      "kicker": "Clínica Veterinaria",
-      "title": "Enro's Vet",
-      "description": "Realizamos diagnóstico clínico, cirugía veterinaria y seguimiento profesional para que tu mascota reciba el mejor cuidado en cada etapa.",
-      "cta": "Agenda una consulta",
+      "kicker": "Clínica Dental",
+      "title": "Yactayo Cama",
+      "description": "Atención odontológica integral con tecnología digital, enfoque preventivo y tratamientos personalizados para toda la familia.",
+      "cta": "Agenda tu evaluación",
       "ctaSecondary": "Ver contacto",
-      "highlightsAria": "Beneficios de Enro's Vet",
-      "highlight1": "Atención personalizada con seguimiento clínico",
-      "highlight2": "Más de 15 años cuidando mascotas en Chilca",
-      "highlight3": "Servicios médicos, grooming y pet shop en un solo lugar",
-      "imageAlt": "Médico veterinario de Enro's Vet"
+      "highlightsAria": "Beneficios de Yactayo Cama",
+      "highlight1": "Diagnóstico preciso y explicación clara de cada tratamiento",
+      "highlight2": "Más de 10 años cuidando sonrisas en Lima",
+      "highlight3": "Prevención, rehabilitación y estética dental en un solo lugar",
+      "imageAlt": "Especialista dental atendiendo a un paciente"
     },
     "servicesBlock": {
       "title": "Especialidades y Servicios",
-      "description": "Conoce de forma clara todo lo que podemos hacer por la salud y bienestar de tu mascota.",
-      "intro": "Brindamos atención integral especializada con protocolos médicos y diagnóstico oportuno para cada etapa de vida de tu mascota.",
+      "description": "Conoce de forma clara cómo podemos ayudarte a mantener una sonrisa saludable.",
+      "intro": "Brindamos atención odontológica para prevención, tratamiento y estética con protocolos modernos y seguimiento continuo.",
       "supportTitle": "Servicios complementarios",
-      "cta": "Hablar con el equipo veterinario",
+      "cta": "Hablar con el equipo dental",
       "allServicesCta": "Ver catálogo completo de servicios"
     },
     "trustBlock": {
       "title": "Por Qué Elegirnos",
-      "description": "Resultados medibles y experiencia local para cuidar mejor a tu mascota."
+      "description": "Resultados consistentes, trato cercano y enfoque clínico para cuidar tu salud bucal."
     },
     "aboutTeaser": {
-      "kicker": "Conoce a Enro's Vet",
-      "title": "Atención veterinaria con enfoque humano y seguimiento real",
-      "description": "Combinamos medicina preventiva, diagnóstico clínico y acompañamiento continuo para que tu mascota reciba un cuidado seguro y cercano en cada etapa.",
-      "listAria": "Fortalezas de Enro's Vet",
-      "point1": "Equipo multidisciplinario para casos de rutina y complejos",
-      "point2": "Protocolos claros para explicar diagnóstico y tratamiento",
-      "point3": "Coordinación rápida por WhatsApp para resolver dudas",
+      "kicker": "Conoce Yactayo Cama",
+      "title": "Odontología moderna con enfoque humano y seguimiento real",
+      "description": "Combinamos prevención, diagnóstico digital y tratamientos personalizados para que cada paciente reciba una experiencia segura y confiable.",
+      "listAria": "Fortalezas de Yactayo Cama",
+      "point1": "Equipo profesional para casos preventivos, restauradores y estéticos",
+      "point2": "Planes de tratamiento claros con tiempos, costos y objetivos definidos",
+      "point3": "Acompañamiento por WhatsApp para resolver dudas postconsulta",
       "cta": "Conocer nuestra historia y staff",
-      "imageAlt": "Equipo veterinario atendiendo a un perro en consulta"
+      "imageAlt": "Equipo odontológico atendiendo en consulta"
     },
     "testimonialsBlock": {
-      "title": "Lo Que Dicen Nuestros Clientes",
-      "description": "Familias de Chilca que confían en Enro's Vet para el cuidado de sus mascotas."
+      "title": "Lo Que Dicen Nuestros Pacientes",
+      "description": "Personas que confían en Yactayo Cama para su atención dental."
     },
     "ctaStrip": {
       "kicker": "Agenda rápida",
-      "title": "¿Tu mascota necesita atención hoy?",
-      "description": "Nuestro equipo puede orientarte de inmediato y coordinar una cita según el caso y disponibilidad.",
+      "title": "¿Tienes dolor dental hoy?",
+      "description": "Nuestro equipo puede orientarte de inmediato y coordinar tu cita según disponibilidad.",
       "primaryCta": "Reservar por WhatsApp",
       "secondaryCta": "Llamar ahora"
     },
     "faqBlock": {
       "title": "Preguntas Frecuentes",
-      "description": "Respuestas rápidas para ayudarte antes de tu próxima visita."
+      "description": "Respuestas rápidas antes de tu próxima cita dental."
     }
   },
   "contactBlock": {
     "title": "Agenda Tu Cita",
-    "description": "Completa el formulario y te contactamos para confirmar horario y servicio.",
+    "description": "Completa el formulario y te contactamos para confirmar fecha, hora y tratamiento.",
     "panelTitle": "Atención rápida por WhatsApp",
-    "panelDescription": "Si necesitas una respuesta inmediata, escríbenos y te orientamos según el caso de tu mascota.",
+    "panelDescription": "Si necesitas una respuesta inmediata, escríbenos y te orientamos según tu caso.",
     "whatsappCta": "Escribir por WhatsApp",
     "fields": {
       "fullName": "Nombre completo*",
       "phone": "Teléfono*",
       "email": "Correo electrónico*",
       "interestedIn": "Servicio de interés",
-      "message": "Cuéntanos qué necesita tu mascota"
+      "message": "Cuéntanos qué necesitas tratar"
     },
     "options": {
-      "option1": "Consulta médica",
-      "option2": "Vacunación",
-      "option3": "Grooming"
+      "option1": "Evaluación dental",
+      "option2": "Limpieza dental",
+      "option3": "Diseño de sonrisa"
     },
     "sending": "Enviando...",
     "feedback": {
@@ -149,33 +150,33 @@
       "configError": "Faltan variables de entorno de EmailJS. Configura .env.local usando .env.example."
     },
     "submit": "Solicitar cita",
-    "mapTitle": "Ubicación de Enro's Vet en Chilca"
+    "mapTitle": "Ubicación de Clínica Dental Yactayo Cama"
   },
   "pages": {
     "about": {
       "title": "Nosotros",
-      "description": "We are a veterinary clinic in Chilca committed to the well-being of every pet, focused on preventive care, timely diagnosis, and close support. We believe in clear and transparent care, where every family understands their pet’s health and feels confident in every decision.",
-      "storyTitle": "Acerca de Enro's Vet",
-      "storyText": "En Enro’s Vet creemos que cada mascota es parte de la familia, y por eso merece una atención médica basada en confianza, respeto y cercanía. Nacimos con el propósito de brindar un servicio veterinario claro y humano, donde cada tutor pueda entender el estado de salud de su mascota y sentirse acompañado en cada decisión.\n Nuestro equipo combina experiencia clínica con un enfoque preventivo, priorizando la detección temprana de enfermedades y el bienestar integral de cada paciente. Sabemos que una buena comunicación es clave, por eso explicamos cada diagnóstico y tratamiento de forma sencilla, para que siempre tengas la tranquilidad de saber qué está pasando.\nMás allá de la consulta, buscamos construir relaciones a largo plazo con cada familia que confía en nosotros. Nos enfocamos en crear un ambiente seguro y cercano, donde tanto las mascotas como sus dueños se sientan cómodos y bien atendidos.\nEn Enro’s Vet no solo cuidamos la salud de tu mascota, sino también la confianza que depositas en nosotros.",
-      "pillarsAria": "Pilares de atención de Enro's Vet",
+      "description": "Somos una clínica dental enfocada en prevención, diagnóstico oportuno y tratamientos personalizados para cada paciente.",
+      "storyTitle": "Acerca de Yactayo Cama",
+      "storyText": "En Clínica Dental Yactayo Cama creemos que una sonrisa saludable cambia la calidad de vida. Nacimos con el propósito de ofrecer atención odontológica clara, humana y técnicamente sólida para cada etapa de la vida.\nNuestro equipo combina experiencia clínica con tecnología digital para lograr diagnósticos precisos y tratamientos más cómodos. Explicamos cada alternativa de forma simple para que tomes decisiones con seguridad.\nNos enfocamos en prevención, rehabilitación y estética dental con planes personalizados que priorizan tu salud bucal a largo plazo.\nMás que una cita, buscamos construir una relación de confianza con cada paciente y su familia.",
+      "pillarsAria": "Pilares de atención de Yactayo Cama",
       "servicesCta": "Ver todos los servicios",
-      "staffTitle": "Nuestro Staff Veterinario",
-      "staffDescription": "Equipo multidisciplinario para consultas generales, diagnóstico clínico y seguimiento continuo.",
-      "reviewsTitle": "Confianza de Nuestros Clientes",
-      "reviewsDescription": "Estas son algunas experiencias de familias que atienden a sus mascotas con nosotros."
+      "staffTitle": "Nuestro Staff Odontológico",
+      "staffDescription": "Equipo multidisciplinario para consultas, tratamientos restauradores y seguimiento continuo.",
+      "reviewsTitle": "Confianza de Nuestros Pacientes",
+      "reviewsDescription": "Estas son algunas experiencias de pacientes que se atienden con nosotros."
     },
     "contact": {
       "title": "Contacto y Reservas",
-      "description": "Puedes escribirnos por WhatsApp, llamarnos o dejarnos tu mensaje para coordinar una cita.",
-      "infoAria": "Canales de contacto de Enro's Vet",
+      "description": "Puedes escribirnos por WhatsApp, llamarnos o dejarnos tus datos para coordinar una cita.",
+      "infoAria": "Canales de contacto de Yactayo Cama",
       "socialTitle": "Síguenos en redes",
       "faqTitle": "Preguntas frecuentes antes de tu cita",
       "faqDescription": "Respuestas rápidas para que agendes con más claridad.",
-      "referenceNote": "Diseño inspirado en patrones de contacto de veterinarias peruanas: CTA inmediato por WhatsApp, horario visible y ubicación con mapa.",
+      "referenceNote": "Diseño orientado a clínicas dentales: CTA inmediato por WhatsApp, horario visible y ubicación con mapa.",
       "cards": {
         "whatsapp": {
           "title": "Atención inmediata",
-          "text": "Prioridad para reservas y consultas rápidas durante horario de atención.",
+          "text": "Canal prioritario para reservas y consultas rápidas durante horario de atención.",
           "cta": "Reservar por WhatsApp"
         },
         "phone": {
@@ -201,103 +202,103 @@
     }
   },
   "footer": {
-    "title": "Enro's Vet",
-    "description": "Veterinaria de confianza en Chilca con atención integral para mascotas.",
+    "title": "Yactayo Cama",
+    "description": "Clínica dental de confianza con atención integral para niños, jóvenes y adultos.",
     "highlights": {
-      "cloneBuild": "Atención preventiva y clínica",
-      "tokenBased": "Equipo cercano y profesional",
-      "responsive": "Acompañamiento antes y después de cada consulta"
+      "cloneBuild": "Prevención y tratamiento personalizado",
+      "tokenBased": "Equipo cercano y especializado",
+      "responsive": "Seguimiento antes y después de cada cita"
     },
-    "rights": "© 2026 Enro's Vet. Todos los derechos reservados."
+    "rights": "© 2026 Yactayo Cama. Todos los derechos reservados."
   },
   "catalog": {
     "serviceShowcase": {
       "generalConsultation": {
-        "title": "Consulta General",
-        "description": "Chequeo clínico para detectar riesgos tempranos y definir un plan de salud para tu mascota.",
-        "point1": "Evaluación de peso, condición corporal y signos vitales",
-        "point2": "Revisión de piel, oído, ojos y cavidad oral",
-        "point3": "Recomendaciones de prevención y cuidados en casa"
+        "title": "Evaluación Odontológica General",
+        "description": "Consulta integral para detectar riesgos tempranos y definir un plan de salud bucal.",
+        "point1": "Revisión clínica de encías, piezas dentales y mordida",
+        "point2": "Detección de caries, inflamación y desgaste",
+        "point3": "Plan preventivo y recomendaciones de higiene"
       },
       "cardiologyConsultation": {
-        "title": "Consulta Cardiológica",
-        "description": "Evaluación especializada para mascotas con soplos, fatiga o sospecha de enfermedad cardíaca.",
-        "point1": "Electrocardiograma para detectar arritmias",
-        "point2": "Ecocardiograma para medir función y tamaño cardíaco",
-        "point3": "Ecocardiografía doppler para evaluar flujos",
-        "point4": "Control y monitoreo de presión arterial"
+        "title": "Odontología Restauradora",
+        "description": "Tratamientos para recuperar función y estética en dientes con daño o pérdida de estructura.",
+        "point1": "Resinas estéticas para caries y fracturas leves",
+        "point2": "Incrustaciones y reconstrucciones funcionales",
+        "point3": "Ajuste oclusal para mayor comodidad al masticar",
+        "point4": "Seguimiento clínico de la restauración"
       },
       "traumatologyConsultation": {
-        "title": "Consulta Traumatológica",
-        "description": "Atención de lesiones músculo-esqueléticas, cojeras, fracturas y dolor articular.",
-        "point1": "Evaluación locomotora y neurológica básica",
-        "point2": "Plan terapéutico según el tipo de lesión",
-        "point3": "Seguimiento de recuperación y movilidad"
+        "title": "Endodoncia",
+        "description": "Tratamiento del conducto para controlar dolor, eliminar infección y conservar la pieza dental.",
+        "point1": "Diagnóstico por síntomas y evaluación radiográfica",
+        "point2": "Limpieza y sellado de conductos con técnica moderna",
+        "point3": "Control posterior para asegurar recuperación"
       },
       "dermatologyConsultation": {
-        "title": "Consulta Dermatológica",
-        "description": "Diagnóstico y tratamiento de alergias, picazón, caída de pelo e infecciones de piel.",
-        "point1": "Raspado, citología y pruebas complementarias",
-        "point2": "Control de dermatitis alérgica y otitis",
-        "point3": "Plan de tratamiento y mantenimiento de piel"
+        "title": "Periodoncia",
+        "description": "Atención especializada para encías inflamadas, sangrado y enfermedad periodontal.",
+        "point1": "Evaluación periodontal por niveles de compromiso",
+        "point2": "Limpieza profunda y control de placa subgingival",
+        "point3": "Mantenimiento periódico para estabilidad a largo plazo"
       },
       "ophthalmologyConsultation": {
-        "title": "Consulta Oftalmológica",
-        "description": "Evaluación ocular para detectar y tratar alteraciones visuales y enfermedades del ojo.",
-        "point1": "Revisión de córnea, conjuntiva y cristalino",
-        "point2": "Detección temprana de úlceras y cataratas",
-        "point3": "Manejo terapéutico y controles periódicos"
+        "title": "Odontopediatría",
+        "description": "Atención dental para niños con enfoque preventivo, educativo y mínimamente invasivo.",
+        "point1": "Controles preventivos por etapa de crecimiento",
+        "point2": "Sellantes y fluorización para proteger esmalte",
+        "point3": "Guía a padres sobre hábitos de higiene y alimentación"
       },
       "abdominalUltrasound": {
-        "title": "Ecografía Abdominal",
-        "description": "Imagen diagnóstica no invasiva para evaluar órganos internos y apoyar decisiones clínicas.",
-        "point1": "Valoración de hígado, riñones y páncreas",
-        "point2": "Revisión de vejiga, útero y ganglios",
-        "point3": "Apoyo para diagnóstico y seguimiento"
+        "title": "Diagnóstico Digital",
+        "description": "Tecnología de imagen para evaluar tu caso con mayor precisión antes de iniciar tratamiento.",
+        "point1": "Radiografía panorámica y periapical según indicación",
+        "point2": "Fotografía clínica para seguimiento de avance",
+        "point3": "Planificación segura de procedimientos"
       }
     },
     "serviceSupport": {
-      "microchipId": "Identificación con microchip",
-      "pharmacy": "Farmacia veterinaria",
-      "petShop": "Pet shop con productos recomendados",
+      "microchipId": "Radiografía digital",
+      "pharmacy": "Farmacia odontológica",
+      "petShop": "Kit de higiene oral recomendado",
       "homeGuidance": "Orientación de cuidados en casa",
       "postoperativeFollowup": "Seguimiento postoperatorio",
-      "chronicDiseaseControl": "Control de pacientes crónicos"
+      "chronicDiseaseControl": "Control de casos periodontales crónicos"
     },
     "services": {
       "preventiveConsultation": {
         "title": "Consulta Preventiva",
-        "description": "Evaluación general para detectar riesgos tempranos y mantener a tu mascota saludable."
+        "description": "Evaluación general para detectar riesgos tempranos y mantener tu sonrisa saludable."
       },
       "vaccinationAndDeworming": {
-        "title": "Vacunas y Desparasitación",
-        "description": "Protocolos por edad y estilo de vida para una protección efectiva todo el año."
+        "title": "Limpieza Dental",
+        "description": "Profilaxis profesional para remover placa y sarro, y prevenir enfermedad periodontal."
       },
       "clinicalLab": {
-        "title": "Laboratorio Clínico",
-        "description": "Pruebas de apoyo diagnóstico para tomar decisiones médicas rápidas y precisas."
+        "title": "Diagnóstico por Imagen",
+        "description": "Radiografías y registro fotográfico para decisiones clínicas más precisas."
       },
       "surgeryAndHospitalization": {
-        "title": "Cirugía y Hospitalización",
-        "description": "Procedimientos seguros con monitoreo y acompañamiento durante recuperación."
+        "title": "Rehabilitación y Cirugía Oral",
+        "description": "Procedimientos seguros para recuperar función, comodidad y estética."
       },
       "groomingAndPetshop": {
-        "title": "Grooming y Pet Shop",
-        "description": "Higiene, estética y productos seleccionados para el bienestar diario de tu mascota."
+        "title": "Estética Dental",
+        "description": "Blanqueamiento y armonización de sonrisa con enfoque conservador."
       }
     },
     "trustStats": {
       "experienceYears": {
-        "value": "+15",
+        "value": "+10",
         "label": "Años de experiencia"
       },
       "petsAttended": {
-        "value": "+5,000",
-        "label": "Mascotas atendidas"
+        "value": "+8,000",
+        "label": "Pacientes atendidos"
       },
       "customerRating": {
         "value": "4.9/5",
-        "label": "Calificación de clientes"
+        "label": "Calificación de pacientes"
       },
       "extendedHours": {
         "value": "6 días",
@@ -306,68 +307,68 @@
     },
     "aboutPillars": {
       "humanCare": {
-        "title": "Atención Humana",
-        "description": "Escuchamos a cada tutor, explicamos diagnósticos en lenguaje claro y definimos un plan realista para el bienestar de su mascota."
+        "title": "Atención Cercana",
+        "description": "Escuchamos tu caso, explicamos cada opción en lenguaje simple y definimos un plan realista para ti."
       },
       "medicalCriteria": {
-        "title": "Criterio Médico",
-        "description": "Aplicamos protocolos clínicos y medicina basada en evidencia para tomar decisiones oportunas en prevención, diagnóstico y tratamiento."
+        "title": "Criterio Clínico",
+        "description": "Aplicamos protocolos actualizados y evidencia científica para decisiones precisas en cada tratamiento."
       },
       "continuousFollowup": {
         "title": "Seguimiento Continuo",
-        "description": "No termina en la consulta: damos pautas en casa, controles programados y monitoreo de evolución según cada caso."
+        "description": "El tratamiento no termina en consulta: acompañamos tu evolución y reforzamos hábitos para mantener resultados."
       }
     },
     "staff": {
       "drEnrique": {
-        "name": "Dr. Carlos Enrique",
-        "role": "Director Médico · Medicina Interna",
-        "bio": "Lidera la evaluación clínica integral y coordina planes terapéuticos para pacientes caninos y felinos.",
-        "imageAlt": "Veterinario revisando a una mascota en consulta"
+        "name": "Dr. Carlos Yactayo",
+        "role": "Director Odontológico · Rehabilitación Oral",
+        "bio": "Lidera la evaluación integral de cada paciente y coordina planes de tratamiento restaurador y funcional.",
+        "imageAlt": "Odontólogo atendiendo a un paciente en consulta"
       },
       "draLucia": {
-        "name": "Dra. Lucía Mendoza",
-        "role": "Médica Veterinaria · Prevención y Vacunación",
-        "bio": "Especialista en medicina preventiva, calendarios de vacunación y orientación nutricional en etapas tempranas y adultas.",
-        "imageAlt": "Médica veterinaria sonriendo en clínica"
+        "name": "Dra. Lucía Cama",
+        "role": "Odontóloga · Prevención y Estética",
+        "bio": "Especialista en salud preventiva, limpieza profesional y diseño de sonrisa con enfoque conservador.",
+        "imageAlt": "Odontóloga sonriendo en clínica"
       },
       "drMarco": {
         "name": "Dr. Marco Salazar",
-        "role": "Médico Veterinario · Cirugía y Urgencias",
-        "bio": "Atiende procedimientos quirúrgicos, estabilización inicial y seguimiento postoperatorio con foco en recuperación segura.",
-        "imageAlt": "Veterinario en área clínica"
+        "role": "Odontólogo · Endodoncia y Urgencias",
+        "bio": "Atiende cuadros de dolor agudo, tratamientos de conducto y seguimiento clínico para recuperación segura.",
+        "imageAlt": "Odontólogo en área clínica"
       }
     },
     "testimonials": {
       "petParentAna": {
         "name": "Ana M.",
-        "text": "Siempre nos explican el tratamiento con claridad y tratan a Luna con mucha paciencia."
+        "text": "Me explicaron todo el tratamiento con claridad y el resultado quedó excelente."
       },
       "petParentLuis": {
         "name": "Luis R.",
-        "text": "La atención fue rápida y profesional. Nos ayudaron a resolver una urgencia el mismo día."
+        "text": "Tuve una urgencia por dolor dental y me atendieron rápido, con mucha empatía."
       },
       "petParentSofia": {
         "name": "Sofía P.",
-        "text": "Me gusta que hacen seguimiento luego de cada consulta. Se nota el compromiso con cada mascota."
+        "text": "El seguimiento después de la cita fue muy bueno. Se nota el compromiso del equipo."
       }
     },
     "faq": {
       "firstVisit": {
         "question": "¿Qué debo llevar a la primera consulta?",
-        "answer": "Trae carnet de vacunación, antecedentes médicos si los tienes y una breve descripción de síntomas o cambios de conducta."
+        "answer": "Trae tus exámenes previos si los tienes y una breve referencia de molestias o tratamientos anteriores."
       },
       "vaccines": {
-        "question": "¿Cada cuánto debo vacunar a mi mascota?",
-        "answer": "Depende de la edad, especie y estado de salud. Evaluamos cada caso y definimos un calendario personalizado."
+        "question": "¿Cada cuánto debo hacerme una limpieza dental?",
+        "answer": "En promedio cada 6 meses, pero depende de tu salud bucal y hábitos. Lo evaluamos en consulta."
       },
       "emergency": {
-        "question": "¿Atienden casos de urgencia?",
-        "answer": "Sí, brindamos primera atención y estabilización. Escríbenos por WhatsApp para orientarte de inmediato."
+        "question": "¿Atienden urgencias odontológicas?",
+        "answer": "Sí, brindamos atención inicial para dolor agudo, inflamación o fracturas dentales. Escríbenos por WhatsApp."
       },
       "paymentMethods": {
         "question": "¿Qué métodos de pago aceptan?",
-        "answer": "Aceptamos efectivo, transferencias y medios digitales locales."
+        "answer": "Aceptamos efectivo, transferencias y medios de pago digitales."
       }
     }
   }

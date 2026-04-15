@@ -30,21 +30,16 @@ function HeroBlock({ variant = "a" }) {
             <img className="hero-figure-image" src={heroImage} alt={t("home.hero.imageAlt")} />
           </div>
 
-          {variant === "a" ? (
-            <>
-              <span className="hero-paw hero-paw--one" aria-hidden="true" />
-              <span className="hero-paw hero-paw--two" aria-hidden="true" />
-            </>
-          ) : (
-            <>
-              <div className="hero-bubble hero-bubble--one" aria-hidden="true" />
-              <div className="hero-bubble hero-bubble--two" aria-hidden="true" />
+          <>
+            <div className="hero-bubble hero-bubble--one" aria-hidden="true" />
+            <div className="hero-bubble hero-bubble--two" aria-hidden="true" />
+            {variant !== "a" ? (
               <div className="hero-badge" aria-hidden="true">
                 <p>{t("catalog.trustStats.experienceYears.value")}</p>
                 <span>{t("catalog.trustStats.experienceYears.label")}</span>
               </div>
-            </>
-          )}
+            ) : null}
+          </>
         </div>
       </Container>
     </section>

@@ -93,7 +93,7 @@ function ContactBlock({ showHeading = true, sectionClassName = "" }) {
             </a>
             <iframe
               title={t("contactBlock.mapTitle")}
-              src="https://maps.google.com/maps?q=Av.%20Salaverry%20277%20Chilca&t=&z=16&ie=UTF8&iwloc=&output=embed"
+              src={t("business.mapEmbedUrl")}
               loading="lazy"
             />
           </article>
