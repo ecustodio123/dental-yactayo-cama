@@ -32,7 +32,8 @@
     "phoneDisplay": "+51 991 998 676",
     "whatsappHref": "https://wa.me/51991998676?text=Hi%20Yactayo%20Cama%20Dental%20Clinic%2C%20I%20would%20like%20to%20book%20an%20appointment.",
     "address": "Av Antúnez de Mayolo 1272 Urb. Covida - Los Olivos",
-    "hours": "Hours: Mon-Sat 9:00 AM - 7:00 PM",
+    "hours": "Hours: Monday to Saturday from 10 am to 10 pm",
+    "hoursWeekend": "Sunday by appointment",
     "email": "contacto@yactayocama.com",
     "mapEmbedUrl": "https://maps.google.com/maps?q=Av%20Ant%C3%BAnez%20de%20Mayolo%201272%20Urb.%20Covida%20-%20Los%20Olivos&t=&z=16&ie=UTF8&iwloc=&output=embed",
     "social": {
@@ -49,22 +50,12 @@
       "wellness": "Dental Aesthetics"
     },
     "options": {
-      "wellnessCheck": "Comprehensive evaluation",
-      "vaccinationPlan": "Prophylaxis and cleaning",
-      "deworming": "Fluoride application",
-      "nutritionAdvice": "Oral hygiene education",
-      "labTests": "Dental X-rays",
-      "imaging": "Intraoral photography",
-      "dermatology": "Caries diagnosis",
-      "seniorProfile": "Adult and senior dental check-up",
-      "softTissueSurgery": "Minor oral surgery",
-      "dentalCleaning": "Deep dental cleaning",
-      "hospitalization": "Oral rehabilitation",
-      "emergencyCare": "Dental emergencies",
-      "grooming": "Teeth whitening",
-      "petShop": "Smile design",
-      "behaviorGuidance": "Post-treatment guidance",
-      "travelCertificate": "Dental certificate"
+      "dentalVeneers": "Dental veneers",
+      "dentalImplants": "Implants",
+      "sapphireBraces": "Sapphire braces",
+      "dentalCleaning": "Dental cleaning",
+      "endodontics": "Endodontics",
+      "dentalWhitening": "Dental whitening"
     }
   },
   "carousel": {
@@ -139,9 +130,12 @@
       "message": "Tell us what you would like to treat"
     },
     "options": {
-      "option1": "Dental evaluation",
-      "option2": "Dental cleaning",
-      "option3": "Smile design"
+      "option1": "Dental veneers",
+      "option2": "Implants",
+      "option3": "Sapphire braces",
+      "option4": "Dental cleaning",
+      "option5": "Endodontics",
+      "option6": "Dental whitening"
     },
     "sending": "Sending...",
     "feedback": {
@@ -213,78 +207,81 @@
   },
   "catalog": {
     "serviceShowcase": {
-      "generalConsultation": {
-        "title": "General Dental Evaluation",
-        "description": "Comprehensive consultation to detect early risks and define an oral health plan.",
-        "point1": "Clinical review of gums, teeth, and bite",
-        "point2": "Detection of caries, inflammation, and wear",
-        "point3": "Preventive plan and oral hygiene guidance"
+      "dentalVeneers": {
+        "title": "Dental veneers",
+        "description": "We improve shape, color, and smile harmony with high-aesthetic veneers.",
+        "point1": "Personalized smile design assessment",
+        "point2": "Resin or porcelain options based on your case",
+        "point3": "Natural, minimally invasive finish"
       },
-      "cardiologyConsultation": {
-        "title": "Restorative Dentistry",
-        "description": "Treatments to recover function and aesthetics in damaged teeth.",
-        "point1": "Aesthetic fillings for cavities and minor fractures",
-        "point2": "Inlays and functional reconstructions",
-        "point3": "Occlusal adjustment for more comfortable chewing",
-        "point4": "Clinical follow-up of restorations"
+      "dentalImplants": {
+        "title": "Implants",
+        "description": "We replace missing teeth to restore function and aesthetics with long-term stability.",
+        "point1": "Precise clinical and radiographic planning",
+        "point2": "Safe implant placement protocol",
+        "point3": "Final rehabilitation with a dental crown"
       },
-      "traumatologyConsultation": {
+      "sapphireBraces": {
+        "title": "Sapphire braces",
+        "description": "Aesthetic orthodontics to align your teeth discreetly and effectively.",
+        "point1": "Highly resistant transparent brackets",
+        "point2": "Personalized tooth movement plan",
+        "point3": "Periodic check-ups for steady progress"
+      },
+      "dentalCleaning": {
+        "title": "Dental cleaning",
+        "description": "Professional prophylaxis to remove plaque and tartar and prevent periodontal disease.",
+        "point1": "Supragingival calculus removal",
+        "point2": "Dental polishing for better hygiene and appearance",
+        "point3": "Daily care recommendations"
+      },
+      "endodontics": {
         "title": "Endodontics",
-        "description": "Root canal treatment to control pain, remove infection, and preserve the tooth.",
-        "point1": "Symptom and radiographic diagnosis",
-        "point2": "Canal cleaning and sealing with modern techniques",
-        "point3": "Post-treatment checks to ensure recovery"
+        "description": "Root canal treatment to remove infection, relieve pain, and preserve your tooth.",
+        "point1": "Clinical and radiographic diagnosis",
+        "point2": "Canal cleaning and sealing",
+        "point3": "Post-treatment follow-up"
       },
-      "dermatologyConsultation": {
-        "title": "Periodontics",
-        "description": "Specialized care for gum inflammation, bleeding, and periodontal disease.",
-        "point1": "Periodontal assessment by severity level",
-        "point2": "Deep cleaning and subgingival plaque control",
-        "point3": "Long-term maintenance protocol"
-      },
-      "ophthalmologyConsultation": {
-        "title": "Pediatric Dentistry",
-        "description": "Dental care for children with preventive education and minimally invasive treatments.",
-        "point1": "Preventive check-ups by growth stage",
-        "point2": "Sealants and fluoride for enamel protection",
-        "point3": "Guidance for parents on hygiene and nutrition habits"
-      },
-      "abdominalUltrasound": {
-        "title": "Digital Diagnostics",
-        "description": "Imaging technology to evaluate your case precisely before treatment.",
-        "point1": "Panoramic and periapical radiography as needed",
-        "point2": "Clinical photography for treatment tracking",
-        "point3": "Safer and better treatment planning"
+      "dentalWhitening": {
+        "title": "Dental whitening",
+        "description": "We brighten your teeth tone with safe techniques and visible results.",
+        "point1": "Pre-treatment enamel evaluation",
+        "point2": "Professional whitening gel application",
+        "point3": "Maintenance instructions for lasting results"
       }
     },
     "serviceSupport": {
-      "microchipId": "Digital radiography",
-      "pharmacy": "In-house dental pharmacy",
-      "petShop": "Recommended oral hygiene kit",
-      "homeGuidance": "At-home care guidance",
-      "postoperativeFollowup": "Post-operative follow-up",
-      "chronicDiseaseControl": "Chronic periodontal case monitoring"
+      "dentalVeneers": "Dental veneers",
+      "dentalImplants": "Implants",
+      "sapphireBraces": "Sapphire braces",
+      "dentalCleaning": "Dental cleaning",
+      "endodontics": "Endodontics",
+      "dentalWhitening": "Dental whitening"
     },
     "services": {
-      "preventiveConsultation": {
-        "title": "Preventive Consultation",
-        "description": "General evaluation to identify early risks and keep your smile healthy."
+      "dentalVeneers": {
+        "title": "Dental veneers",
+        "description": "Aesthetic enhancement of tooth shape and color for a harmonious smile."
       },
-      "vaccinationAndDeworming": {
-        "title": "Dental Cleaning",
-        "description": "Professional prophylaxis to remove plaque and tartar and prevent periodontal disease."
+      "dentalImplants": {
+        "title": "Implants",
+        "description": "Replacement of missing teeth with stability and full function."
       },
-      "clinicalLab": {
-        "title": "Imaging Diagnostics",
-        "description": "Dental radiographs and clinical records for more accurate clinical decisions."
+      "sapphireBraces": {
+        "title": "Sapphire braces",
+        "description": "Aesthetic orthodontics to align your smile discreetly."
       },
-      "surgeryAndHospitalization": {
-        "title": "Rehabilitation and Oral Surgery",
-        "description": "Safe procedures to restore function, comfort, and aesthetics."
+      "dentalCleaning": {
+        "title": "Dental cleaning",
+        "description": "Removal of plaque and tartar to prevent periodontal issues."
       },
-      "groomingAndPetshop": {
-        "title": "Dental Aesthetics",
-        "description": "Whitening and smile harmonization with a conservative approach."
+      "endodontics": {
+        "title": "Endodontics",
+        "description": "Root canal treatment to remove infection and preserve teeth."
+      },
+      "dentalWhitening": {
+        "title": "Dental whitening",
+        "description": "Professional brightening for a cleaner, brighter smile."
       }
     },
     "trustStats": {

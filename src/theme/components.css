@@ -385,7 +385,7 @@
   width: min(500px, 100%);
   aspect-ratio: 1 / 1;
   display: grid;
-  place-items: end center;
+  place-items: center;
 }
 
 .hero-circle-bg {
@@ -404,13 +404,15 @@
 
 .hero-figure-image {
   position: absolute;
-  width: min(440px, 90%);
-  height: auto;
-  bottom: 0;
+  width: min(410px, 84%);
+  aspect-ratio: 1 / 1;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
-  object-fit: contain;
-  object-position: bottom;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.62);
   z-index: 3;
   filter: drop-shadow(0 16px 26px rgba(0, 0, 0, 0.16));
 }
@@ -1283,7 +1285,7 @@
   }
 
   .hero-figure-image {
-    width: min(380px, 86%);
+    width: min(362px, 82%);
   }
 
   .loop-carousel {
@@ -1383,7 +1385,8 @@
   }
 
   .hero-figure-image {
-    width: min(280px, 84%);
+    width: min(264px, 82%);
+    border-width: 4px;
   }
 
   .hero-paw {

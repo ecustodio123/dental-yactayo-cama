@@ -8,18 +8,18 @@ export const topNavLinks = [
 export const mainNavDropdowns = [
   {
     key: "preventiveCare",
-    optionKeys: ["wellnessCheck", "vaccinationPlan", "deworming", "nutritionAdvice"],
+    optionKeys: ["dentalCleaning", "dentalWhitening"],
   },
   {
     key: "diagnostics",
-    optionKeys: ["labTests", "imaging", "dermatology", "seniorProfile"],
+    optionKeys: ["endodontics"],
   },
   {
     key: "procedures",
-    optionKeys: ["softTissueSurgery", "dentalCleaning", "hospitalization", "emergencyCare"],
+    optionKeys: ["dentalVeneers", "dentalImplants"],
   },
   {
     key: "wellness",
-    optionKeys: ["grooming", "petShop", "behaviorGuidance", "travelCertificate"],
+    optionKeys: ["sapphireBraces"],
   },
 ];

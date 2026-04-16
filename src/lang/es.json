@@ -32,7 +32,8 @@
     "phoneDisplay": "+51 991 998 676",
     "whatsappHref": "https://wa.me/51991998676?text=Hola%20Cl%C3%ADnica%20Dental%20Yactayo%20Cama%2C%20quiero%20agendar%20una%20cita.",
     "address": "Av Antúnez de Mayolo 1272 Urb. Covida - Los Olivos",
-    "hours": "Horario: Lun-Sáb 9:00 AM - 7:00 PM",
+    "hours": "Horario: Lunes a Sabado de 10 am a 10 pm",
+    "hoursWeekend": "Domingo previa cita",
     "email": "contacto@yactayocama.com",
     "mapEmbedUrl": "https://maps.google.com/maps?q=Av%20Ant%C3%BAnez%20de%20Mayolo%201272%20Urb.%20Covida%20-%20Los%20Olivos&t=&z=16&ie=UTF8&iwloc=&output=embed",
     "social": {
@@ -49,22 +50,12 @@
       "wellness": "Estética dental"
     },
     "options": {
-      "wellnessCheck": "Evaluación integral",
-      "vaccinationPlan": "Profilaxis y limpieza",
-      "deworming": "Aplicación de flúor",
-      "nutritionAdvice": "Educación en higiene oral",
-      "labTests": "Radiografía dental",
-      "imaging": "Fotografía intraoral",
-      "dermatology": "Diagnóstico de caries",
-      "seniorProfile": "Chequeo odontológico adulto mayor",
-      "softTissueSurgery": "Cirugía oral menor",
-      "dentalCleaning": "Limpieza dental profunda",
-      "hospitalization": "Rehabilitación oral",
-      "emergencyCare": "Urgencias odontológicas",
-      "grooming": "Blanqueamiento dental",
-      "petShop": "Diseño de sonrisa",
-      "behaviorGuidance": "Asesoría postratamiento",
-      "travelCertificate": "Certificado odontológico"
+      "dentalVeneers": "Carillas dentales",
+      "dentalImplants": "Implantes",
+      "sapphireBraces": "Brackets de zafiro",
+      "dentalCleaning": "Limpieza dental",
+      "endodontics": "Endodoncia",
+      "dentalWhitening": "Blanqueamiento Dental"
     }
   },
   "carousel": {
@@ -139,9 +130,12 @@
       "message": "Cuéntanos qué necesitas tratar"
     },
     "options": {
-      "option1": "Evaluación dental",
-      "option2": "Limpieza dental",
-      "option3": "Diseño de sonrisa"
+      "option1": "Carillas dentales",
+      "option2": "Implantes",
+      "option3": "Brackets de zafiro",
+      "option4": "Limpieza dental",
+      "option5": "Endodoncia",
+      "option6": "Blanqueamiento Dental"
     },
     "sending": "Enviando...",
     "feedback": {
@@ -213,78 +207,81 @@
   },
   "catalog": {
     "serviceShowcase": {
-      "generalConsultation": {
-        "title": "Evaluación Odontológica General",
-        "description": "Consulta integral para detectar riesgos tempranos y definir un plan de salud bucal.",
-        "point1": "Revisión clínica de encías, piezas dentales y mordida",
-        "point2": "Detección de caries, inflamación y desgaste",
-        "point3": "Plan preventivo y recomendaciones de higiene"
+      "dentalVeneers": {
+        "title": "Carillas dentales",
+        "description": "Mejoramos forma, color y armonía de la sonrisa con carillas de alta estética.",
+        "point1": "Evaluación de diseño de sonrisa personalizada",
+        "point2": "Opciones en resina o porcelana según tu caso",
+        "point3": "Acabado natural y mínimamente invasivo"
       },
-      "cardiologyConsultation": {
-        "title": "Odontología Restauradora",
-        "description": "Tratamientos para recuperar función y estética en dientes con daño o pérdida de estructura.",
-        "point1": "Resinas estéticas para caries y fracturas leves",
-        "point2": "Incrustaciones y reconstrucciones funcionales",
-        "point3": "Ajuste oclusal para mayor comodidad al masticar",
-        "point4": "Seguimiento clínico de la restauración"
+      "dentalImplants": {
+        "title": "Implantes",
+        "description": "Reponemos piezas dentales perdidas para recuperar función y estética con estabilidad a largo plazo.",
+        "point1": "Planificación clínica y radiográfica precisa",
+        "point2": "Colocación de implantes con protocolo seguro",
+        "point3": "Rehabilitación final con corona dental"
       },
-      "traumatologyConsultation": {
+      "sapphireBraces": {
+        "title": "Brackets de zafiro",
+        "description": "Ortodoncia estética para alinear tus dientes con discreción y eficacia.",
+        "point1": "Brackets transparentes de alta resistencia",
+        "point2": "Plan de movimiento dental personalizado",
+        "point3": "Controles periódicos para avances sostenidos"
+      },
+      "dentalCleaning": {
+        "title": "Limpieza dental",
+        "description": "Profilaxis profesional para eliminar placa y sarro y prevenir enfermedad periodontal.",
+        "point1": "Remoción de cálculo supragingival",
+        "point2": "Pulido dental para mejorar higiene y apariencia",
+        "point3": "Recomendaciones de cuidado diario"
+      },
+      "endodontics": {
         "title": "Endodoncia",
-        "description": "Tratamiento del conducto para controlar dolor, eliminar infección y conservar la pieza dental.",
-        "point1": "Diagnóstico por síntomas y evaluación radiográfica",
-        "point2": "Limpieza y sellado de conductos con técnica moderna",
-        "point3": "Control posterior para asegurar recuperación"
+        "description": "Tratamiento de conducto para eliminar infección, aliviar dolor y conservar tu diente.",
+        "point1": "Diagnóstico clínico y radiográfico",
+        "point2": "Limpieza y sellado de conductos",
+        "point3": "Control de evolución post tratamiento"
       },
-      "dermatologyConsultation": {
-        "title": "Periodoncia",
-        "description": "Atención especializada para encías inflamadas, sangrado y enfermedad periodontal.",
-        "point1": "Evaluación periodontal por niveles de compromiso",
-        "point2": "Limpieza profunda y control de placa subgingival",
-        "point3": "Mantenimiento periódico para estabilidad a largo plazo"
-      },
-      "ophthalmologyConsultation": {
-        "title": "Odontopediatría",
-        "description": "Atención dental para niños con enfoque preventivo, educativo y mínimamente invasivo.",
-        "point1": "Controles preventivos por etapa de crecimiento",
-        "point2": "Sellantes y fluorización para proteger esmalte",
-        "point3": "Guía a padres sobre hábitos de higiene y alimentación"
-      },
-      "abdominalUltrasound": {
-        "title": "Diagnóstico Digital",
-        "description": "Tecnología de imagen para evaluar tu caso con mayor precisión antes de iniciar tratamiento.",
-        "point1": "Radiografía panorámica y periapical según indicación",
-        "point2": "Fotografía clínica para seguimiento de avance",
-        "point3": "Planificación segura de procedimientos"
+      "dentalWhitening": {
+        "title": "Blanqueamiento Dental",
+        "description": "Aclaramos el tono de tus dientes con técnicas seguras y resultados visibles.",
+        "point1": "Evaluación previa del esmalte dental",
+        "point2": "Aplicación de gel blanqueador profesional",
+        "point3": "Indicaciones para mantener el resultado"
       }
     },
     "serviceSupport": {
-      "microchipId": "Radiografía digital",
-      "pharmacy": "Farmacia odontológica",
-      "petShop": "Kit de higiene oral recomendado",
-      "homeGuidance": "Orientación de cuidados en casa",
-      "postoperativeFollowup": "Seguimiento postoperatorio",
-      "chronicDiseaseControl": "Control de casos periodontales crónicos"
+      "dentalVeneers": "Carillas dentales",
+      "dentalImplants": "Implantes",
+      "sapphireBraces": "Brackets de zafiro",
+      "dentalCleaning": "Limpieza dental",
+      "endodontics": "Endodoncia",
+      "dentalWhitening": "Blanqueamiento Dental"
     },
     "services": {
-      "preventiveConsultation": {
-        "title": "Consulta Preventiva",
-        "description": "Evaluación general para detectar riesgos tempranos y mantener tu sonrisa saludable."
+      "dentalVeneers": {
+        "title": "Carillas dentales",
+        "description": "Mejora estética de forma y color para una sonrisa armónica."
       },
-      "vaccinationAndDeworming": {
-        "title": "Limpieza Dental",
-        "description": "Profilaxis profesional para remover placa y sarro, y prevenir enfermedad periodontal."
+      "dentalImplants": {
+        "title": "Implantes",
+        "description": "Reposición de dientes perdidos con estabilidad y función."
       },
-      "clinicalLab": {
-        "title": "Diagnóstico por Imagen",
-        "description": "Radiografías y registro fotográfico para decisiones clínicas más precisas."
+      "sapphireBraces": {
+        "title": "Brackets de zafiro",
+        "description": "Ortodoncia estética para alinear tu sonrisa con discreción."
       },
-      "surgeryAndHospitalization": {
-        "title": "Rehabilitación y Cirugía Oral",
-        "description": "Procedimientos seguros para recuperar función, comodidad y estética."
+      "dentalCleaning": {
+        "title": "Limpieza dental",
+        "description": "Eliminación de placa y sarro para prevenir problemas periodontales."
       },
-      "groomingAndPetshop": {
-        "title": "Estética Dental",
-        "description": "Blanqueamiento y armonización de sonrisa con enfoque conservador."
+      "endodontics": {
+        "title": "Endodoncia",
+        "description": "Tratamiento de conducto para eliminar infección y conservar piezas dentales."
+      },
+      "dentalWhitening": {
+        "title": "Blanqueamiento Dental",
+        "description": "Aclaramiento dental profesional para una sonrisa más luminosa."
       }
     },
     "trustStats": {

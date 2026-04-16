@@ -16,6 +16,7 @@ function SiteFooter() {
           <p>{t("footer.description")}</p>
           <p>{t("business.address")}</p>
           <p>{t("business.hours")}</p>
+          <p>{t("business.hoursWeekend")}</p>
           <SocialLinks tone="footer" />
         </div>
         <ul className="footer-links">

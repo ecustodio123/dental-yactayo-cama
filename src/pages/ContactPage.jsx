@@ -32,6 +32,7 @@ function ContactPage() {
             <article className="contact-info-card">
               <h3>{t("pages.contact.cards.schedule.title")}</h3>
               <p>{t("business.hours")}</p>
+              <p>{t("business.hoursWeekend")}</p>
               <p>{t("business.address")}</p>
             </article>
           </div>

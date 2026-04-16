@@ -14,6 +14,7 @@ function ContactBlock({ showHeading = true, sectionClassName = "" }) {
   const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
   const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
   const isConfigured = Boolean(serviceId && templateId && publicKey);
+  const optionKeys = ["option1", "option2", "option3", "option4", "option5", "option6"];
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -58,9 +59,9 @@ function ContactBlock({ showHeading = true, sectionClassName = "" }) {
                 <option value="" disabled>
                   {t("contactBlock.fields.interestedIn")}
                 </option>
-                <option>{t("contactBlock.options.option1")}</option>
-                <option>{t("contactBlock.options.option2")}</option>
-                <option>{t("contactBlock.options.option3")}</option>
+                {optionKeys.map((optionKey) => (
+                  <option key={optionKey}>{t(`contactBlock.options.${optionKey}`)}</option>
+                ))}
               </select>
               <textarea
                 className="textarea"
@@ -88,6 +89,7 @@ function ContactBlock({ showHeading = true, sectionClassName = "" }) {
             <p className="contact-panel__text">{t("contactBlock.panelDescription")}</p>
             <p className="contact-panel__meta">{t("business.address")}</p>
             <p className="contact-panel__meta">{t("business.hours")}</p>
+            <p className="contact-panel__meta">{t("business.hoursWeekend")}</p>
             <a className="btn btn-primary contact-panel__cta" href={t("business.whatsappHref")} target="_blank" rel="noreferrer">
               {t("contactBlock.whatsappCta")}
             </a>
