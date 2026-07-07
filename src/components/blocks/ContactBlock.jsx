@@ -40,6 +40,17 @@ function ContactBlock({ showHeading = true, sectionClassName = "" }) {
     <section id="contact" className={`surface-section surface-section--soft ${sectionClassName}`.trim()}>
       <Container>
         {showHeading ? <SectionHeading title={t("contactBlock.title")} description={t("contactBlock.description")} /> : null}
+        <article className="calendly-panel">
+          <div className="calendly-panel__intro">
+            <h3>{t("contactBlock.calendlyTitle")}</h3>
+            <p>{t("contactBlock.calendlyDescription")}</p>
+          </div>
+          <iframe
+            title={t("contactBlock.calendlyFrameTitle")}
+            src={`${t("business.calendlyHref")}?hide_gdpr_banner=1`}
+            loading="lazy"
+          />
+        </article>
         <div className="contact-block">
           <article className="contact-panel">
             <form ref={formRef} onSubmit={handleSubmit}>

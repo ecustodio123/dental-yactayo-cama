@@ -24,7 +24,7 @@ function SiteHeader() {
           <a className="header-phone" href={`tel:${t("business.phoneHref")}`}>
             <PhoneIcon sx={{ fontSize: 15, marginBottom: "-2px" }} /> {t("business.phoneDisplay")}
           </a>
-          <a className="btn btn-primary header-cta" href={t("business.whatsappHref")} target="_blank" rel="noreferrer">
+          <a className="btn btn-primary header-cta" href={t("business.calendlyHref")} target="_blank" rel="noreferrer">
             {t("header.cta")}
           </a>
         </nav>

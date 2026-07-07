@@ -30,6 +30,7 @@
   "business": {
     "phoneHref": "51991998676",
     "phoneDisplay": "+51 991 998 676",
+    "calendlyHref": "https://calendly.com/ecustodioflores/30min",
     "whatsappHref": "https://wa.me/51991998676?text=Hola%20Cl%C3%ADnica%20Dental%20Yactayo%20Cama%2C%20quiero%20agendar%20una%20cita.",
     "address": "Av Antúnez de Mayolo 1272 Urb. Covida - Los Olivos",
     "hours": "Horario: Lunes a Sabado de 10 am a 10 pm",
@@ -108,7 +109,7 @@
       "kicker": "Agenda rápida",
       "title": "¿Tienes dolor dental hoy?",
       "description": "Nuestro equipo puede orientarte de inmediato y coordinar tu cita según disponibilidad.",
-      "primaryCta": "Reservar por WhatsApp",
+      "primaryCta": "Reservar en Calendly",
       "secondaryCta": "Llamar ahora"
     },
     "faqBlock": {
@@ -118,7 +119,10 @@
   },
   "contactBlock": {
     "title": "Agenda Tu Cita",
-    "description": "Completa el formulario y te contactamos para confirmar fecha, hora y tratamiento.",
+    "description": "Elige un horario disponible en Calendly o completa el formulario si prefieres que te contactemos.",
+    "calendlyTitle": "Reserva tu evaluación dental",
+    "calendlyDescription": "Selecciona el día y hora que mejor se acomode a tu disponibilidad.",
+    "calendlyFrameTitle": "Calendario de reservas de Yactayo Cama",
     "panelTitle": "Atención rápida por WhatsApp",
     "panelDescription": "Si necesitas una respuesta inmediata, escríbenos y te orientamos según tu caso.",
     "whatsappCta": "Escribir por WhatsApp",
@@ -166,12 +170,12 @@
       "socialTitle": "Síguenos en redes",
       "faqTitle": "Preguntas frecuentes antes de tu cita",
       "faqDescription": "Respuestas rápidas para que agendes con más claridad.",
-      "referenceNote": "Diseño orientado a clínicas dentales: CTA inmediato por WhatsApp, horario visible y ubicación con mapa.",
+      "referenceNote": "Diseño orientado a clínicas dentales: reserva en línea con Calendly, horario visible y ubicación con mapa.",
       "cards": {
         "whatsapp": {
-          "title": "Atención inmediata",
-          "text": "Canal prioritario para reservas y consultas rápidas durante horario de atención.",
-          "cta": "Reservar por WhatsApp"
+          "title": "Reserva en línea",
+          "text": "Elige un horario disponible y confirma tu evaluación directamente desde Calendly.",
+          "cta": "Abrir Calendly"
         },
         "phone": {
           "title": "Llámanos",

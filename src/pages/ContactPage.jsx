@@ -16,7 +16,7 @@ function ContactPage() {
             <article className="contact-info-card">
               <h3>{t("pages.contact.cards.whatsapp.title")}</h3>
               <p>{t("pages.contact.cards.whatsapp.text")}</p>
-              <a className="btn btn-primary" href={t("business.whatsappHref")} target="_blank" rel="noreferrer">
+              <a className="btn btn-primary" href={t("business.calendlyHref")} target="_blank" rel="noreferrer">
                 {t("pages.contact.cards.whatsapp.cta")}
               </a>
             </article>

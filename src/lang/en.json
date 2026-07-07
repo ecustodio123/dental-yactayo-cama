@@ -30,6 +30,7 @@
   "business": {
     "phoneHref": "51991998676",
     "phoneDisplay": "+51 991 998 676",
+    "calendlyHref": "https://calendly.com/ecustodioflores/30min",
     "whatsappHref": "https://wa.me/51991998676?text=Hi%20Yactayo%20Cama%20Dental%20Clinic%2C%20I%20would%20like%20to%20book%20an%20appointment.",
     "address": "Av Antúnez de Mayolo 1272 Urb. Covida - Los Olivos",
     "hours": "Hours: Monday to Saturday from 10 am to 10 pm",
@@ -108,7 +109,7 @@
       "kicker": "Quick booking",
       "title": "Do you have dental pain today?",
       "description": "Our team can guide you right away and schedule your appointment based on availability.",
-      "primaryCta": "Book on WhatsApp",
+      "primaryCta": "Book on Calendly",
       "secondaryCta": "Call now"
     },
     "faqBlock": {
@@ -118,7 +119,10 @@
   },
   "contactBlock": {
     "title": "Book Your Appointment",
-    "description": "Fill out the form and we will contact you to confirm date, time, and treatment.",
+    "description": "Choose an available time on Calendly or fill out the form if you prefer us to contact you.",
+    "calendlyTitle": "Book your dental evaluation",
+    "calendlyDescription": "Select the day and time that works best for your availability.",
+    "calendlyFrameTitle": "Yactayo Cama booking calendar",
     "panelTitle": "Fast WhatsApp support",
     "panelDescription": "If you need an immediate response, message us and we will guide you based on your case.",
     "whatsappCta": "Chat on WhatsApp",
@@ -166,12 +170,12 @@
       "socialTitle": "Follow us on social media",
       "faqTitle": "Frequently asked questions before booking",
       "faqDescription": "Quick answers so you can schedule with more clarity.",
-      "referenceNote": "Contact-first layout for dental clinics: immediate WhatsApp CTA, visible schedule, and map-based location.",
+      "referenceNote": "Contact-first layout for dental clinics: online booking with Calendly, visible schedule, and map-based location.",
       "cards": {
         "whatsapp": {
-          "title": "Immediate assistance",
-          "text": "Priority channel for bookings and quick questions during business hours.",
-          "cta": "Book on WhatsApp"
+          "title": "Online booking",
+          "text": "Choose an available time and confirm your evaluation directly through Calendly.",
+          "cta": "Open Calendly"
         },
         "phone": {
           "title": "Call us",

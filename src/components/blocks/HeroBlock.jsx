@@ -11,7 +11,7 @@ function HeroBlock({ variant = "a" }) {
       <p className="hero-kicker">{t("home.hero.kicker")}</p>
       <h1>{t("home.hero.title")}</h1>
       <p className="hero-description">{t("home.hero.description")}</p>
-      <a className="btn btn-primary hero-cta" href={t("business.whatsappHref")} target="_blank" rel="noreferrer">
+      <a className="btn btn-primary hero-cta" href={t("business.calendlyHref")} target="_blank" rel="noreferrer">
         <CalendarMonthOutlinedIcon sx={{ fontSize: 18, marginRight: "0.35rem" }} />
         {t("home.hero.cta")}
       </a>
